@@ -6,11 +6,18 @@ mongoose.connect('mongodb://localhost:27017/SpatialData', {userNewUrlParser: tru
 // Collection de distritos
 const Distrito = mongoose.model('distritos', {})
 
-//Colleccion de Veterinarias
+// Collection de provincias
+const Provincia = mongoose.model('provincias', {})
 
+// Collection de departamentos
+const Departamento = mongoose.model('departamentos', {})
+
+//Colleccion de Veterinarias
 const Veterinaria = mongoose.model('veterinarias', {})
 
 module.exports = {
     Distrito,
+    Provincia,
+    Departamento,
     Veterinaria
 }

@@ -38,7 +38,13 @@ var UsuarioSchema = mongoose.Schema({
     },
     fecha_elim: {
         type: Date
-    }
+    },
+    // guardado:   
+    // guardado: 
+    //     [{
+    //         type: mongoose.Schema.Types.ObjectId,
+    //         ref: 'nombredelotroschema'
+    //     }]
     
     // profile: {
     //     type: mongoose.Schema.Types.ObjectId,

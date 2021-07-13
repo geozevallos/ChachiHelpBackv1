@@ -6,6 +6,8 @@ const { DistritoController } = require('./controllers/distritos_controller');
 const { UsuarioController } = require('./controllers/usuarios_controller');
 const { VeterinariaController } = require('./controllers/veterinarias_controller');
 const { PublicacionController } = require('./controllers/publicacion_controller');
+const { DepartamentoController } = require('./controllers/departamentos_controller');
+const { ProvinciaController } = require('./controllers/provincia_controller');
 
 const app = express();
 
@@ -14,8 +16,11 @@ app.use(cors())
 app.use(bodyParser.json());
 
 
+// Ubicacion
+app.get('/departamentos', DepartamentoController.findAll)
+app.get('/provincias/:iddpto', ProvinciaController.findByIdDpto)
+app.get('/distritos/:idprov', DistritoController.findByIdProv)
 
-app.get('/distritos', DistritoController.findAll)
 
 // usuarios
 app.post('/usuario', UsuarioController.post)

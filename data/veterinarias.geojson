@@ -1,0 +1,7802 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2021-07-11T04:31:28Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/232670724",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Veterinaria Artesanos en Surco",
+        "note": "El Veterinario es un Sr. de edad canoso y tiene bastante paciencia con las mascotas"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.983746,
+              -12.1326617
+            ],
+            [
+              -76.9837898,
+              -12.1326465
+            ],
+            [
+              -76.9838008,
+              -12.1326766
+            ],
+            [
+              -76.983757,
+              -12.1326919
+            ],
+            [
+              -76.983746,
+              -12.1326617
+            ]
+          ]
+        ]
+      },
+      "id": "way/232670724"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/434789861",
+        "addr:city": "Miraflores",
+        "addr:housenumber": "1250",
+        "addr:street": "Avenida Alfredo Benavides",
+        "amenity": "veterinary",
+        "building": "yes",
+        "grooming": "yes",
+        "name": "Groomers"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.0196105,
+              -12.1262351
+            ],
+            [
+              -77.0196102,
+              -12.1262929
+            ],
+            [
+              -77.0195121,
+              -12.126293
+            ],
+            [
+              -77.0195112,
+              -12.1262578
+            ],
+            [
+              -77.0195121,
+              -12.1262352
+            ],
+            [
+              -77.0196105,
+              -12.1262351
+            ]
+          ]
+        ]
+      },
+      "id": "way/434789861"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/434800850",
+        "addr:city": "Lima",
+        "addr:street": "Avenida Alfredo Benavides",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Veterinaría Missiego",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.0032676,
+              -12.1287725
+            ],
+            [
+              -77.0032817,
+              -12.1288634
+            ],
+            [
+              -77.0031568,
+              -12.1288819
+            ],
+            [
+              -77.0031426,
+              -12.1287911
+            ],
+            [
+              -77.0032676,
+              -12.1287725
+            ]
+          ]
+        ]
+      },
+      "id": "way/434800850"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/435182343",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "El Huron Azul",
+        "opening_hours": "Mo-Su,PH 00:00+",
+        "source": "Reconocimiento cartográfico por KG 2016."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.0790809,
+              -12.0927093
+            ],
+            [
+              -77.0789795,
+              -12.0927647
+            ],
+            [
+              -77.0789484,
+              -12.0927101
+            ],
+            [
+              -77.0789505,
+              -12.0926819
+            ],
+            [
+              -77.079038,
+              -12.0926342
+            ],
+            [
+              -77.0790809,
+              -12.0927093
+            ]
+          ]
+        ]
+      },
+      "id": "way/435182343"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/435197705",
+        "addr:street": "Avenida República de Venezuela (auxiliar)",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Veterinaria Master in Pets",
+        "source": "Actualizaciones en Peru. Reconocimiento cartográfico 2016 por KG."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.0995399,
+              -12.0625279
+            ],
+            [
+              -77.0995467,
+              -12.0624606
+            ],
+            [
+              -77.0996245,
+              -12.0624681
+            ],
+            [
+              -77.0996177,
+              -12.0625354
+            ],
+            [
+              -77.0995399,
+              -12.0625279
+            ]
+          ]
+        ]
+      },
+      "id": "way/435197705"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/435323739",
+        "addr:city": "Miraflores",
+        "addr:housenumber": "200",
+        "addr:postcode": "15074",
+        "addr:street": "Avenida 28 de Julio",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Groomers",
+        "operator": "Groomers",
+        "phone": "+511 7155454",
+        "shop": "yes",
+        "source": "Reconocimiento cartográfico por KG 2016.",
+        "website": "https://veterinariagroomers.com/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.0323288,
+              -12.1258932
+            ],
+            [
+              -77.0323614,
+              -12.1259748
+            ],
+            [
+              -77.0322857,
+              -12.1260037
+            ],
+            [
+              -77.0322531,
+              -12.1259222
+            ],
+            [
+              -77.0323288,
+              -12.1258932
+            ]
+          ]
+        ]
+      },
+      "id": "way/435323739"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/435346050",
+        "addr:street": "Avenida Los Insurgentes",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Small Friends",
+        "source": "Actualizaciones en Peru. Reconocimiento cartográfico 2016 por KG."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.1042055,
+              -12.0647738
+            ],
+            [
+              -77.104182,
+              -12.0648836
+            ],
+            [
+              -77.104014,
+              -12.0648574
+            ],
+            [
+              -77.1040321,
+              -12.0647411
+            ],
+            [
+              -77.1042055,
+              -12.0647738
+            ]
+          ]
+        ]
+      },
+      "id": "way/435346050"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/435346056",
+        "addr:street": "Avenida Los Insurgentes",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Pet's Aztec Veterinary",
+        "source": "Actualizaciones en Peru. Reconocimiento cartográfico 2016 por KG."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.1038061,
+              -12.067174
+            ],
+            [
+              -77.1038848,
+              -12.0671724
+            ],
+            [
+              -77.1038861,
+              -12.0672346
+            ],
+            [
+              -77.1038075,
+              -12.0672363
+            ],
+            [
+              -77.1038061,
+              -12.067174
+            ]
+          ]
+        ]
+      },
+      "id": "way/435346056"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/435348575",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Veterinaría Guernica",
+        "source": "Actualizaciones en Peru. Reconocimiento cartográfico 2016 por KG."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.1041511,
+              -12.0693843
+            ],
+            [
+              -77.1041876,
+              -12.0693801
+            ],
+            [
+              -77.1041908,
+              -12.0694073
+            ],
+            [
+              -77.1041557,
+              -12.0694223
+            ],
+            [
+              -77.1041511,
+              -12.0693843
+            ]
+          ]
+        ]
+      },
+      "id": "way/435348575"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/435536251",
+        "addr:street": "Avenida Separadora Industrial",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Consultorio Veterinario Rodriguez",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.9254116,
+              -12.2199093
+            ],
+            [
+              -76.9252672,
+              -12.2198301
+            ],
+            [
+              -76.9252881,
+              -12.2197936
+            ],
+            [
+              -76.9254326,
+              -12.2198727
+            ],
+            [
+              -76.9254116,
+              -12.2199093
+            ]
+          ]
+        ]
+      },
+      "id": "way/435536251"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/435554450",
+        "addr:street": "Avenida Tupac Amaru",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Veterinaría",
+        "source": "Reconocimiento cartográfico por KG 2016."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.0264218,
+              -11.8895526
+            ],
+            [
+              -77.0264593,
+              -11.8895192
+            ],
+            [
+              -77.0264827,
+              -11.8895444
+            ],
+            [
+              -77.0264452,
+              -11.8895778
+            ],
+            [
+              -77.0264218,
+              -11.8895526
+            ]
+          ]
+        ]
+      },
+      "id": "way/435554450"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/435561338",
+        "addr:street": "Avenida Mariano Pastor Sevilla",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Clínica Veterinaria \"Salvador\"",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.9562295,
+              -12.1997387
+            ],
+            [
+              -76.9560888,
+              -12.1996579
+            ],
+            [
+              -76.9561198,
+              -12.1996063
+            ],
+            [
+              -76.9562605,
+              -12.1996872
+            ],
+            [
+              -76.9562295,
+              -12.1997387
+            ]
+          ]
+        ]
+      },
+      "id": "way/435561338"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/435669814",
+        "addr:city": "Cercado de Lima",
+        "addr:postcode": "15001",
+        "addr:state": "Lima",
+        "amenity": "veterinary",
+        "building": "yes",
+        "source": "Reconocimiento cartográfico por KG 2016."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.0333169,
+              -12.0426043
+            ],
+            [
+              -77.0332438,
+              -12.0426531
+            ],
+            [
+              -77.0332223,
+              -12.0426222
+            ],
+            [
+              -77.0332954,
+              -12.0425735
+            ],
+            [
+              -77.0333169,
+              -12.0426043
+            ]
+          ]
+        ]
+      },
+      "id": "way/435669814"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/436295985",
+        "addr:housenumber": "1848",
+        "addr:street": "Luis M. Sanchez Cerro",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Estación Central Veterinaria",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.0488422,
+              -12.0804859
+            ],
+            [
+              -77.0488414,
+              -12.0804609
+            ],
+            [
+              -77.0488209,
+              -12.0804615
+            ],
+            [
+              -77.0488183,
+              -12.080373
+            ],
+            [
+              -77.0490044,
+              -12.0803679
+            ],
+            [
+              -77.0490077,
+              -12.0804813
+            ],
+            [
+              -77.0488422,
+              -12.0804859
+            ]
+          ]
+        ]
+      },
+      "id": "way/436295985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/436318202",
+        "addr:street": "Avenida Antonio Miro Quesada",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Veterinaria Animalia",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.0583089,
+              -12.0906143
+            ],
+            [
+              -77.058433,
+              -12.090536
+            ],
+            [
+              -77.0584861,
+              -12.0906164
+            ],
+            [
+              -77.058362,
+              -12.0906947
+            ],
+            [
+              -77.0583089,
+              -12.0906143
+            ]
+          ]
+        ]
+      },
+      "id": "way/436318202"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/436442094",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Veterinario Municipal",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.0501907,
+              -12.1078342
+            ],
+            [
+              -77.0502155,
+              -12.107871
+            ],
+            [
+              -77.0501775,
+              -12.1078955
+            ],
+            [
+              -77.0501527,
+              -12.1078587
+            ],
+            [
+              -77.0501907,
+              -12.1078342
+            ]
+          ]
+        ]
+      },
+      "id": "way/436442094"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/436455350",
+        "addr:housenumber": "151",
+        "addr:street": "Calle Narciso de la Colina",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Dermato Vet",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.0286708,
+              -12.1182274
+            ],
+            [
+              -77.0286149,
+              -12.1182281
+            ],
+            [
+              -77.0286134,
+              -12.1180504
+            ],
+            [
+              -77.0286687,
+              -12.1180496
+            ],
+            [
+              -77.0286708,
+              -12.1182274
+            ]
+          ]
+        ]
+      },
+      "id": "way/436455350"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/436456997",
+        "addr:street": "Avenida Revolución",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Veterinaraia Clinican",
+        "source": "Reconocimiento cartogáfico de campo por KG 2016."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.0259058,
+              -11.9136627
+            ],
+            [
+              -77.0259501,
+              -11.9136718
+            ],
+            [
+              -77.0259242,
+              -11.9137925
+            ],
+            [
+              -77.0258798,
+              -11.9137834
+            ],
+            [
+              -77.0259058,
+              -11.9136627
+            ]
+          ]
+        ]
+      },
+      "id": "way/436456997"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/436465803",
+        "addr:street": "Jirón Soledad",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Clinico Veterinario",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.0320239,
+              -12.0905029
+            ],
+            [
+              -77.0320502,
+              -12.0905068
+            ],
+            [
+              -77.0320451,
+              -12.0905397
+            ],
+            [
+              -77.0320868,
+              -12.0905459
+            ],
+            [
+              -77.0320631,
+              -12.0906986
+            ],
+            [
+              -77.031995,
+              -12.0906885
+            ],
+            [
+              -77.0320239,
+              -12.0905029
+            ]
+          ]
+        ]
+      },
+      "id": "way/436465803"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/436466998",
+        "addr:city": "Miraflores",
+        "addr:postcode": "15074",
+        "addr:street": "Calle Bolognesi",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Animal Place Veterinaria",
+        "source": "Reconocimiento cartográfico 2017 por Kaart."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.035745,
+              -12.1210502
+            ],
+            [
+              -77.035624,
+              -12.121051
+            ],
+            [
+              -77.0356235,
+              -12.1209865
+            ],
+            [
+              -77.0356569,
+              -12.1209862
+            ],
+            [
+              -77.0356566,
+              -12.1209533
+            ],
+            [
+              -77.0357552,
+              -12.1209526
+            ],
+            [
+              -77.0357553,
+              -12.120975
+            ],
+            [
+              -77.0357446,
+              -12.1209855
+            ],
+            [
+              -77.035745,
+              -12.1210502
+            ]
+          ]
+        ]
+      },
+      "id": "way/436466998"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/436468536",
+        "addr:street": "Avenida Paseo la Castellana",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Clinica Veterinaria Surco",
+        "source": "Reconocimiento cartográfico por KG 2016."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.0034754,
+              -12.1327526
+            ],
+            [
+              -77.0033488,
+              -12.1328197
+            ],
+            [
+              -77.0032866,
+              -12.1327074
+            ],
+            [
+              -77.0034131,
+              -12.1326403
+            ],
+            [
+              -77.0034754,
+              -12.1327526
+            ]
+          ]
+        ]
+      },
+      "id": "way/436468536"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/436561160",
+        "Source": "Actualizaciones en Peru. Reconocimiento cartográfico por KG 2016",
+        "addr:city": "Barranco",
+        "addr:housenumber": "922",
+        "addr:street": "Avenida Almirante Miguel Grau",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Veterinaria",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.0219629,
+              -12.1424926
+            ],
+            [
+              -77.0219426,
+              -12.1424913
+            ],
+            [
+              -77.0218014,
+              -12.142482
+            ],
+            [
+              -77.021809,
+              -12.1423863
+            ],
+            [
+              -77.0219684,
+              -12.1423967
+            ],
+            [
+              -77.0219629,
+              -12.1424926
+            ]
+          ]
+        ]
+      },
+      "id": "way/436561160"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/436581963",
+        "addr:street": "Jirón Simón Salguero",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Dani Pets & Vet",
+        "source": "Reconocimiento cartográfico por KG 2016."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.0090579,
+              -12.1304809
+            ],
+            [
+              -77.0090605,
+              -12.1304488
+            ],
+            [
+              -77.0090921,
+              -12.1304512
+            ],
+            [
+              -77.0090895,
+              -12.1304833
+            ],
+            [
+              -77.0090579,
+              -12.1304809
+            ]
+          ]
+        ]
+      },
+      "id": "way/436581963"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/436608998",
+        "addr:city": "Barranco",
+        "addr:housenumber": "6584",
+        "addr:postcode": "15047",
+        "addr:street": "Avenida República de Panamá",
+        "amenity": "veterinary",
+        "building": "yes",
+        "description": "telf: 01446-6179 - 01637-5132 Cel: 998 195 193",
+        "email": "atencion.cliente@panchocavero.com",
+        "name": "Pancho Cavero",
+        "opening_hours": "24/7",
+        "phone": "+51 998 195 193",
+        "source": "Reconocimiento cartográfico por KG 2016",
+        "website": "http://www.panchovavero.com"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.0183833,
+              -12.1319428
+            ],
+            [
+              -77.0183577,
+              -12.1320351
+            ],
+            [
+              -77.0181118,
+              -12.1320304
+            ],
+            [
+              -77.0181136,
+              -12.1319376
+            ],
+            [
+              -77.0183833,
+              -12.1319428
+            ]
+          ]
+        ]
+      },
+      "id": "way/436608998"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/436609381",
+        "Source": "Actualizaciones en Peru. Reconocimiento cartográfico por KG 2016",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Vets & Pets",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.0181606,
+              -12.138131
+            ],
+            [
+              -77.018126,
+              -12.1382222
+            ],
+            [
+              -77.0180888,
+              -12.1382087
+            ],
+            [
+              -77.0180828,
+              -12.1381797
+            ],
+            [
+              -77.01811,
+              -12.1381122
+            ],
+            [
+              -77.018129,
+              -12.1381196
+            ],
+            [
+              -77.0181606,
+              -12.138131
+            ]
+          ]
+        ]
+      },
+      "id": "way/436609381"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/436615317",
+        "addr:street": "Jirón Rosendo Vidaure",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Vets & Pets",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.0181068,
+              -12.1381133
+            ],
+            [
+              -77.0181565,
+              -12.1381279
+            ],
+            [
+              -77.018131,
+              -12.1382112
+            ],
+            [
+              -77.0181005,
+              -12.1382022
+            ],
+            [
+              -77.0180866,
+              -12.1381788
+            ],
+            [
+              -77.0181068,
+              -12.1381133
+            ]
+          ]
+        ]
+      },
+      "id": "way/436615317"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/436616833",
+        "Source": "Actualizaciones en Peru. Reconocimiento cartográfico por KG 2016",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Pet S.O.S. A&P",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.0182096,
+              -12.1420243
+            ],
+            [
+              -77.0182569,
+              -12.142087
+            ],
+            [
+              -77.0182415,
+              -12.1421132
+            ],
+            [
+              -77.0181732,
+              -12.1420554
+            ],
+            [
+              -77.0182096,
+              -12.1420243
+            ]
+          ]
+        ]
+      },
+      "id": "way/436616833"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/436751978",
+        "Source": "Actualizaciones en Peru. Reconocimiento cartográfico por KG 2016",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Veterinaria",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.0194836,
+              -12.1533817
+            ],
+            [
+              -77.0194617,
+              -12.1534633
+            ],
+            [
+              -77.0193862,
+              -12.1534113
+            ],
+            [
+              -77.0194625,
+              -12.1533662
+            ],
+            [
+              -77.0194836,
+              -12.1533817
+            ]
+          ]
+        ]
+      },
+      "id": "way/436751978"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/436771523",
+        "addr:city": "Miraflores",
+        "addr:housenumber": "5680",
+        "addr:postcode": "15074",
+        "addr:street": "Avenida Paseo de la República",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "La Perruquaria",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.0254059,
+              -12.1216387
+            ],
+            [
+              -77.0255885,
+              -12.12167
+            ],
+            [
+              -77.0255775,
+              -12.121731
+            ],
+            [
+              -77.025395,
+              -12.1216997
+            ],
+            [
+              -77.0254059,
+              -12.1216387
+            ]
+          ]
+        ]
+      },
+      "id": "way/436771523"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/436795245",
+        "Source": "Actualizaciones en Peru. Reconocimiento cartográfico por KG 2016",
+        "addr:city": "Miraflores",
+        "addr:postcode": "15047",
+        "addr:street": "Calle General Vargas Machuca",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Aurora Veterinaria",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.0184337,
+              -12.1222774
+            ],
+            [
+              -77.0184337,
+              -12.1223802
+            ],
+            [
+              -77.0183683,
+              -12.1223802
+            ],
+            [
+              -77.018336,
+              -12.1223462
+            ],
+            [
+              -77.018336,
+              -12.1222774
+            ],
+            [
+              -77.0184337,
+              -12.1222774
+            ]
+          ]
+        ]
+      },
+      "id": "way/436795245"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/436809276",
+        "addr:city": "Ventanilla",
+        "addr:street": "Avenida Pedro Beltrán",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Veterinaria Municipal",
+        "operator": "Municipalidad de Ventanilla"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.1241092,
+              -11.8723844
+            ],
+            [
+              -77.1241703,
+              -11.8723538
+            ],
+            [
+              -77.1242163,
+              -11.8724359
+            ],
+            [
+              -77.1243417,
+              -11.8725076
+            ],
+            [
+              -77.1243124,
+              -11.8725546
+            ],
+            [
+              -77.1241496,
+              -11.8724638
+            ],
+            [
+              -77.1241092,
+              -11.8723844
+            ]
+          ]
+        ]
+      },
+      "id": "way/436809276"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/436899387",
+        "Source": "Actualizaciones en Peru. Reconocimiento cartográfico por KG 2016",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "La Estacion Centro Veterinario",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.023565,
+              -12.1196101
+            ],
+            [
+              -77.0235062,
+              -12.1196067
+            ],
+            [
+              -77.0235104,
+              -12.1195364
+            ],
+            [
+              -77.0235692,
+              -12.1195398
+            ],
+            [
+              -77.023565,
+              -12.1196101
+            ]
+          ]
+        ]
+      },
+      "id": "way/436899387"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/436900986",
+        "addr:street": "Avenida República de Panamá",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Clinica Veterinaria",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.1326094,
+              -12.0592505
+            ],
+            [
+              -77.1327165,
+              -12.0592643
+            ],
+            [
+              -77.132712,
+              -12.059298
+            ],
+            [
+              -77.1326049,
+              -12.0592842
+            ],
+            [
+              -77.1326094,
+              -12.0592505
+            ]
+          ]
+        ]
+      },
+      "id": "way/436900986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/436919814",
+        "amenity": "veterinary",
+        "building": "yes",
+        "source": "Reconocimiento cartogáfico de campo por KG 2016."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.1023469,
+              -11.8429484
+            ],
+            [
+              -77.1023845,
+              -11.8429958
+            ],
+            [
+              -77.1023247,
+              -11.8430412
+            ],
+            [
+              -77.1022871,
+              -11.8429938
+            ],
+            [
+              -77.1023469,
+              -11.8429484
+            ]
+          ]
+        ]
+      },
+      "id": "way/436919814"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/436920657",
+        "addr:street": "Avenida La Marina (auxiliar)",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Jiska Vie",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.1019014,
+              -12.0735119
+            ],
+            [
+              -77.1019194,
+              -12.0735498
+            ],
+            [
+              -77.1018496,
+              -12.0735814
+            ],
+            [
+              -77.1018317,
+              -12.0735434
+            ],
+            [
+              -77.1019014,
+              -12.0735119
+            ]
+          ]
+        ]
+      },
+      "id": "way/436920657"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/436928209",
+        "Source": "Actualizaciones en Peru. Reconocimiento cartográfico por KG 2016",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "ReflexVet",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.0034387,
+              -12.125052
+            ],
+            [
+              -77.0034001,
+              -12.1251081
+            ],
+            [
+              -77.0033148,
+              -12.1250518
+            ],
+            [
+              -77.0033534,
+              -12.1249958
+            ],
+            [
+              -77.0034387,
+              -12.125052
+            ]
+          ]
+        ]
+      },
+      "id": "way/436928209"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/437359055",
+        "addr:street": "Avenida Ariosto Matellini",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Coripets",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.0079744,
+              -12.1776057
+            ],
+            [
+              -77.007996,
+              -12.1776253
+            ],
+            [
+              -77.0079639,
+              -12.1776591
+            ],
+            [
+              -77.0079423,
+              -12.1776394
+            ],
+            [
+              -77.0079744,
+              -12.1776057
+            ]
+          ]
+        ]
+      },
+      "id": "way/437359055"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/437508006",
+        "addr:street": "Avenida El Polo",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Pet Center",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.9719203,
+              -12.1022462
+            ],
+            [
+              -76.9719397,
+              -12.1022944
+            ],
+            [
+              -76.9718688,
+              -12.1023217
+            ],
+            [
+              -76.9718494,
+              -12.1022735
+            ],
+            [
+              -76.9719203,
+              -12.1022462
+            ]
+          ]
+        ]
+      },
+      "id": "way/437508006"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/437510620",
+        "addr:postcode": "15023",
+        "addr:street": "Avenida El Polo",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Mascotas El Polo",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.9738976,
+              -12.1070784
+            ],
+            [
+              -76.9737886,
+              -12.1071186
+            ],
+            [
+              -76.9737613,
+              -12.107048
+            ],
+            [
+              -76.9738581,
+              -12.1070123
+            ],
+            [
+              -76.9738747,
+              -12.107019
+            ],
+            [
+              -76.9738976,
+              -12.1070784
+            ]
+          ]
+        ]
+      },
+      "id": "way/437510620"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/437515666",
+        "addr:street": "Avenida Malecon Miguel Checa Eguiguren",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Vet Zarate",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.0013001,
+              -12.0276908
+            ],
+            [
+              -77.0013285,
+              -12.0276022
+            ],
+            [
+              -77.0014163,
+              -12.0276291
+            ],
+            [
+              -77.0013879,
+              -12.0277177
+            ],
+            [
+              -77.0013001,
+              -12.0276908
+            ]
+          ]
+        ]
+      },
+      "id": "way/437515666"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/437647267",
+        "addr:street": "Los Heroes",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Veterinaria",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.9617593,
+              -12.1584508
+            ],
+            [
+              -76.9618162,
+              -12.1585845
+            ],
+            [
+              -76.961758,
+              -12.1586082
+            ],
+            [
+              -76.9617011,
+              -12.1584744
+            ],
+            [
+              -76.9617593,
+              -12.1584508
+            ]
+          ]
+        ]
+      },
+      "id": "way/437647267"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/437702633",
+        "addr:street": "Avenida Defensores del Morro",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "La Pesebrera",
+        "phone": "+51 1 750 7555",
+        "source": "Reconocimiento cartográfico por Kaart 2017"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.0072787,
+              -12.1897296
+            ],
+            [
+              -77.0071986,
+              -12.1897892
+            ],
+            [
+              -77.0071338,
+              -12.1897062
+            ],
+            [
+              -77.0071927,
+              -12.1896626
+            ],
+            [
+              -77.0072262,
+              -12.1896617
+            ],
+            [
+              -77.0072787,
+              -12.1897296
+            ]
+          ]
+        ]
+      },
+      "id": "way/437702633"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/437819691",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Veterinaria D' Pupy Pet",
+        "source": "Reconocimiento cartográfico por KG 2016."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.9926273,
+              -11.9701026
+            ],
+            [
+              -76.9926988,
+              -11.9700459
+            ],
+            [
+              -76.9927561,
+              -11.970115
+            ],
+            [
+              -76.9927536,
+              -11.9701442
+            ],
+            [
+              -76.9926982,
+              -11.9701882
+            ],
+            [
+              -76.9926273,
+              -11.9701026
+            ]
+          ]
+        ]
+      },
+      "id": "way/437819691"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/437828422",
+        "addr:street": "Avenida Las Palmas",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Demetrio's"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.9038062,
+              -12.223828
+            ],
+            [
+              -76.9036604,
+              -12.2237465
+            ],
+            [
+              -76.9036948,
+              -12.2236876
+            ],
+            [
+              -76.9038407,
+              -12.2237691
+            ],
+            [
+              -76.9038062,
+              -12.223828
+            ]
+          ]
+        ]
+      },
+      "id": "way/437828422"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/437880811",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Zerpa",
+        "phone": "+51 1 388 2767",
+        "source": "Reconocimiento cartográfico por KG 2016."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.00808,
+              -11.9734634
+            ],
+            [
+              -77.0081075,
+              -11.9735084
+            ],
+            [
+              -77.0079713,
+              -11.9735881
+            ],
+            [
+              -77.0079438,
+              -11.9735431
+            ],
+            [
+              -77.00808,
+              -11.9734634
+            ]
+          ]
+        ]
+      },
+      "id": "way/437880811"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/437887150",
+        "addr:street": "Avenida Alfredo Benavides",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Acuaric Pet",
+        "source": "Reconocimiento cartográfico por KG 2017"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.9935546,
+              -12.128169
+            ],
+            [
+              -76.9935138,
+              -12.1281646
+            ],
+            [
+              -76.99352,
+              -12.1281094
+            ],
+            [
+              -76.9935608,
+              -12.1281137
+            ],
+            [
+              -76.9935546,
+              -12.128169
+            ]
+          ]
+        ]
+      },
+      "id": "way/437887150"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/437997784",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Veterinaria Las Razas",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.0153836,
+              -12.0825562
+            ],
+            [
+              -77.0153329,
+              -12.0824397
+            ],
+            [
+              -77.0153206,
+              -12.0824106
+            ],
+            [
+              -77.0153962,
+              -12.0823795
+            ],
+            [
+              -77.0154588,
+              -12.0825249
+            ],
+            [
+              -77.0153836,
+              -12.0825562
+            ]
+          ]
+        ]
+      },
+      "id": "way/437997784"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/438009520",
+        "addr:street": "Flora Tristan",
+        "amenity": "veterinary",
+        "building": "yes",
+        "emergency": "yes",
+        "name": "Pet's Place",
+        "phone": "+51 1 349 4484",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.9394568,
+              -12.0734861
+            ],
+            [
+              -76.9394431,
+              -12.0735498
+            ],
+            [
+              -76.9393016,
+              -12.0735207
+            ],
+            [
+              -76.9393153,
+              -12.0734571
+            ],
+            [
+              -76.9394568,
+              -12.0734861
+            ]
+          ]
+        ]
+      },
+      "id": "way/438009520"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/438009523",
+        "addr:city": "La Molina",
+        "addr:street": "Flora Tristan",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Pet Center",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.9405769,
+              -12.0721501
+            ],
+            [
+              -76.9404984,
+              -12.0720703
+            ],
+            [
+              -76.9405557,
+              -12.0720163
+            ],
+            [
+              -76.9406343,
+              -12.0720961
+            ],
+            [
+              -76.9405769,
+              -12.0721501
+            ]
+          ]
+        ]
+      },
+      "id": "way/438009523"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/438447248",
+        "addr:street": "Avenida Pedro Venturo",
+        "amenity": "veterinary",
+        "building": "yes",
+        "building:levels": "3",
+        "name": "Clínica Veterinaria Rondón",
+        "source": "Reconocimiento cartográfico por Kaart 2017"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.9975599,
+              -12.1201657
+            ],
+            [
+              -76.9974181,
+              -12.1202205
+            ],
+            [
+              -76.997393,
+              -12.1201584
+            ],
+            [
+              -76.9975348,
+              -12.1201036
+            ],
+            [
+              -76.9975599,
+              -12.1201657
+            ]
+          ]
+        ]
+      },
+      "id": "way/438447248"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/438456091",
+        "addr:street": "Avenida 27 de Diciembre",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Veterinaria",
+        "source": "Reconocimiento cartografico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.929606,
+              -12.1897008
+            ],
+            [
+              -76.9295312,
+              -12.1898234
+            ],
+            [
+              -76.9294891,
+              -12.1897989
+            ],
+            [
+              -76.9295638,
+              -12.1896762
+            ],
+            [
+              -76.929606,
+              -12.1897008
+            ]
+          ]
+        ]
+      },
+      "id": "way/438456091"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/438659432",
+        "amenity": "veterinary",
+        "building": "yes",
+        "fixme": "name",
+        "name": "Koko Vet",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.0011545,
+              -12.1205302
+            ],
+            [
+              -77.0011339,
+              -12.1206648
+            ],
+            [
+              -77.0010671,
+              -12.120655
+            ],
+            [
+              -77.001082,
+              -12.1205574
+            ],
+            [
+              -77.0010877,
+              -12.1205204
+            ],
+            [
+              -77.0011545,
+              -12.1205302
+            ]
+          ]
+        ]
+      },
+      "id": "way/438659432"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/438848340",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Instituto Veterinario"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.989891,
+              -12.1107383
+            ],
+            [
+              -76.9897838,
+              -12.1107323
+            ],
+            [
+              -76.9897999,
+              -12.1104584
+            ],
+            [
+              -76.9899072,
+              -12.1104644
+            ],
+            [
+              -76.989891,
+              -12.1107383
+            ]
+          ]
+        ]
+      },
+      "id": "way/438848340"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/438857733",
+        "addr:street": "Prolongación Los Fresnos",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Animal Hospital",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.9383406,
+              -12.1102842
+            ],
+            [
+              -76.938268,
+              -12.1102508
+            ],
+            [
+              -76.9383443,
+              -12.1100921
+            ],
+            [
+              -76.9384169,
+              -12.1101255
+            ],
+            [
+              -76.9383406,
+              -12.1102842
+            ]
+          ]
+        ]
+      },
+      "id": "way/438857733"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/438861447",
+        "addr:street": "Avenida Carlos Alberto Izaguirre",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Cedi Vet",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.0776368,
+              -11.9913301
+            ],
+            [
+              -77.0776302,
+              -11.991195
+            ],
+            [
+              -77.0777029,
+              -11.9911917
+            ],
+            [
+              -77.0777095,
+              -11.9913267
+            ],
+            [
+              -77.0776368,
+              -11.9913301
+            ]
+          ]
+        ]
+      },
+      "id": "way/438861447"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/438866563",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Prana Clinica Veterinaria",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.0004263,
+              -12.1200861
+            ],
+            [
+              -77.0004429,
+              -12.1199812
+            ],
+            [
+              -77.0005126,
+              -12.1199918
+            ],
+            [
+              -77.0004961,
+              -12.1200966
+            ],
+            [
+              -77.0004263,
+              -12.1200861
+            ]
+          ]
+        ]
+      },
+      "id": "way/438866563"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/439071945",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Veterinaría",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.0122836,
+              -12.0177751
+            ],
+            [
+              -77.0124278,
+              -12.0177574
+            ],
+            [
+              -77.0124412,
+              -12.0178408
+            ],
+            [
+              -77.0122924,
+              -12.0178575
+            ],
+            [
+              -77.0122836,
+              -12.0177751
+            ]
+          ]
+        ]
+      },
+      "id": "way/439071945"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/439202682",
+        "addr:street": "Avenida José Granda",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Clinica Veterinaria & Pet Shop",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.0800597,
+              -12.0241163
+            ],
+            [
+              -77.0799746,
+              -12.0241549
+            ],
+            [
+              -77.0799029,
+              -12.0240037
+            ],
+            [
+              -77.079988,
+              -12.0239651
+            ],
+            [
+              -77.0800597,
+              -12.0241163
+            ]
+          ]
+        ]
+      },
+      "id": "way/439202682"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/439213614",
+        "addr:street": "Avenida Los Dominicos",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Hospital Veterinario",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.1047788,
+              -11.9944002
+            ],
+            [
+              -77.1047632,
+              -11.9944769
+            ],
+            [
+              -77.104603,
+              -11.9944458
+            ],
+            [
+              -77.1046186,
+              -11.9943691
+            ],
+            [
+              -77.1047788,
+              -11.9944002
+            ]
+          ]
+        ]
+      },
+      "id": "way/439213614"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/439617738",
+        "addr:housenumber": "206",
+        "addr:street": "Las Casuarinas",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Dr. William Miranda - Veterinario"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.9740372,
+              -12.1138753
+            ],
+            [
+              -76.9740912,
+              -12.1139024
+            ],
+            [
+              -76.9740704,
+              -12.1139422
+            ],
+            [
+              -76.9741074,
+              -12.1139607
+            ],
+            [
+              -76.9740826,
+              -12.114008
+            ],
+            [
+              -76.9739916,
+              -12.1139624
+            ],
+            [
+              -76.9740372,
+              -12.1138753
+            ]
+          ]
+        ]
+      },
+      "id": "way/439617738"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/439788769",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Veterinaria Widi",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.0756081,
+              -12.0202047
+            ],
+            [
+              -77.0754881,
+              -12.0201422
+            ],
+            [
+              -77.075522,
+              -12.02008
+            ],
+            [
+              -77.0756419,
+              -12.0201426
+            ],
+            [
+              -77.0756081,
+              -12.0202047
+            ]
+          ]
+        ]
+      },
+      "id": "way/439788769"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/439793437",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Veterinaria Gran Danes",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.0821149,
+              -11.9736595
+            ],
+            [
+              -77.0822768,
+              -11.9735994
+            ],
+            [
+              -77.0822947,
+              -11.9736456
+            ],
+            [
+              -77.0821328,
+              -11.9737057
+            ],
+            [
+              -77.0821149,
+              -11.9736595
+            ]
+          ]
+        ]
+      },
+      "id": "way/439793437"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/439816916",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Veterinaria",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.0581378,
+              -11.9818494
+            ],
+            [
+              -77.0581143,
+              -11.9819184
+            ],
+            [
+              -77.0580866,
+              -11.9819299
+            ],
+            [
+              -77.0579961,
+              -11.9819005
+            ],
+            [
+              -77.0580258,
+              -11.981813
+            ],
+            [
+              -77.0581378,
+              -11.9818494
+            ]
+          ]
+        ]
+      },
+      "id": "way/439816916"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/439899780",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Veterinaria Dr. Vet",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.084913,
+              -11.9972077
+            ],
+            [
+              -77.085077,
+              -11.9972421
+            ],
+            [
+              -77.0850588,
+              -11.9973248
+            ],
+            [
+              -77.0848921,
+              -11.997286
+            ],
+            [
+              -77.084913,
+              -11.9972077
+            ]
+          ]
+        ]
+      },
+      "id": "way/439899780"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/439941577",
+        "addr:street": "Carretera Central",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Animascotas",
+        "source": "Reconocimiento cartografico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.7608259,
+              -11.9739447
+            ],
+            [
+              -76.7608099,
+              -11.9740176
+            ],
+            [
+              -76.760757,
+              -11.9740065
+            ],
+            [
+              -76.760773,
+              -11.9739336
+            ],
+            [
+              -76.7608259,
+              -11.9739447
+            ]
+          ]
+        ]
+      },
+      "id": "way/439941577"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/439945770",
+        "addr:street": "Carretera Central",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Animal World",
+        "source": "Reconocimiento cartografico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.7597659,
+              -11.9735527
+            ],
+            [
+              -76.7597839,
+              -11.9736244
+            ],
+            [
+              -76.7597518,
+              -11.9736862
+            ],
+            [
+              -76.7596134,
+              -11.9736173
+            ],
+            [
+              -76.7596714,
+              -11.9735057
+            ],
+            [
+              -76.7597659,
+              -11.9735527
+            ]
+          ]
+        ]
+      },
+      "id": "way/439945770"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/464589517",
+        "addr:city": "San Juan de Miraflores",
+        "addr:housenumber": "155",
+        "addr:postcode": "29",
+        "addr:street": "Avenida Los Lirios",
+        "amenity": "veterinary",
+        "building": "yes",
+        "building:levels": "1",
+        "name": "Veterinaria Huellitas Pet Shop",
+        "smoking": "no"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.9817898,
+              -12.1514979
+            ],
+            [
+              -76.9816479,
+              -12.1515885
+            ],
+            [
+              -76.9816123,
+              -12.1515287
+            ],
+            [
+              -76.981752,
+              -12.1514416
+            ],
+            [
+              -76.9817898,
+              -12.1514979
+            ]
+          ]
+        ]
+      },
+      "id": "way/464589517"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/512633613",
+        "addr:street": "Avenida Defensores de Lima",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Entre Patas",
+        "phone": "+51 1 275 4935",
+        "source": "Reconocimiento cartográfico por KG 2017"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.9750308,
+              -12.1411166
+            ],
+            [
+              -76.9750505,
+              -12.1410548
+            ],
+            [
+              -76.9751967,
+              -12.1410993
+            ],
+            [
+              -76.9751769,
+              -12.1411612
+            ],
+            [
+              -76.9750308,
+              -12.1411166
+            ]
+          ]
+        ]
+      },
+      "id": "way/512633613"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/520132048",
+        "addr:housenumber": "752",
+        "addr:street": "Cahuas",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "El Granjerito",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.2040133,
+              -11.4930759
+            ],
+            [
+              -77.2039789,
+              -11.4931065
+            ],
+            [
+              -77.2039073,
+              -11.4931694
+            ],
+            [
+              -77.2038613,
+              -11.4931191
+            ],
+            [
+              -77.2039374,
+              -11.4930523
+            ],
+            [
+              -77.2040133,
+              -11.4930759
+            ]
+          ]
+        ]
+      },
+      "id": "way/520132048"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/562838887",
+        "amenity": "veterinary",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.9649126,
+              -12.0514259
+            ],
+            [
+              -76.964724,
+              -12.0513654
+            ],
+            [
+              -76.9647577,
+              -12.051272
+            ],
+            [
+              -76.9649454,
+              -12.0513356
+            ],
+            [
+              -76.9649126,
+              -12.0514259
+            ]
+          ]
+        ]
+      },
+      "id": "way/562838887"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/804516737",
+        "amenity": "veterinary",
+        "building": "commercial",
+        "building:levels": "4"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.97272,
+              -12.024276
+            ],
+            [
+              -76.9725812,
+              -12.0242865
+            ],
+            [
+              -76.9725659,
+              -12.0241104
+            ],
+            [
+              -76.9726966,
+              -12.0240996
+            ],
+            [
+              -76.97272,
+              -12.024276
+            ]
+          ]
+        ]
+      },
+      "id": "way/804516737"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/806243183",
+        "amenity": "veterinary",
+        "building": "yes",
+        "height": "2.4"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.9687041,
+              -12.0240032
+            ],
+            [
+              -76.9686675,
+              -12.0241717
+            ],
+            [
+              -76.9685985,
+              -12.0241577
+            ],
+            [
+              -76.9686411,
+              -12.0239894
+            ],
+            [
+              -76.9687041,
+              -12.0240032
+            ]
+          ]
+        ]
+      },
+      "id": "way/806243183"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/810788464",
+        "addr:city": "San Miguel",
+        "addr:housenumber": "492",
+        "addr:postcode": "15086",
+        "addr:street": "José de San Martín",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Clinica Veterinaria Municipal",
+        "opening_hours": "Mo-Sa 08:00-20:00"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.0764592,
+              -12.0905506
+            ],
+            [
+              -77.076497,
+              -12.0906303
+            ],
+            [
+              -77.0763312,
+              -12.0907055
+            ],
+            [
+              -77.0762934,
+              -12.0906259
+            ],
+            [
+              -77.0764592,
+              -12.0905506
+            ]
+          ]
+        ]
+      },
+      "id": "way/810788464"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/936868872",
+        "amenity": "veterinary",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.0526543,
+              -12.0760954
+            ],
+            [
+              -77.0526875,
+              -12.0761353
+            ],
+            [
+              -77.0526344,
+              -12.0761776
+            ],
+            [
+              -77.0526008,
+              -12.0761351
+            ],
+            [
+              -77.0526543,
+              -12.0760954
+            ]
+          ]
+        ]
+      },
+      "id": "way/936868872"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/944870330",
+        "addr:district": "San Juan de Lurigancho",
+        "addr:full": "Somos Libres Manzana D Lote 8",
+        "addr:state": "Lima",
+        "addr:street": "Avenida Fernando Wiese",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Veterinaria Maskotopia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.9850219,
+              -11.9469644
+            ],
+            [
+              -76.9848875,
+              -11.9470597
+            ],
+            [
+              -76.9848326,
+              -11.9469956
+            ],
+            [
+              -76.9849724,
+              -11.9468969
+            ],
+            [
+              -76.9850219,
+              -11.9469644
+            ]
+          ]
+        ]
+      },
+      "id": "way/944870330"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1865052996",
+        "amenity": "veterinary",
+        "name": "Patitas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0936504,
+          -12.0402529
+        ]
+      },
+      "id": "node/1865052996"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1921402348",
+        "addr:city": "Lince",
+        "addr:street": "Jirón Pedro Conde",
+        "amenity": "veterinary"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0296771,
+          -12.0875243
+        ]
+      },
+      "id": "node/1921402348"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3293614190",
+        "addr:housenumber": "102",
+        "addr:street": "Los Algarrobos",
+        "amenity": "veterinary",
+        "name": "MundoCan",
+        "phone": "+51 1 6610446"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9879195,
+          -12.0783689
+        ]
+      },
+      "id": "node/3293614190"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3293803526",
+        "addr:housenumber": "265",
+        "addr:street": "Garcilazo de la Vega",
+        "amenity": "veterinary",
+        "name": "viPets",
+        "phone": "+51 1 4346058"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9867944,
+          -12.0755425
+        ]
+      },
+      "id": "node/3293803526"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3783355193",
+        "amenity": "veterinary",
+        "name": "Veterinaria Ingenieria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0516485,
+          -12.0246401
+        ]
+      },
+      "id": "node/3783355193"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3840334357",
+        "addr:district": "Carmen de La Legua-Reynoso",
+        "addr:housenumber": "325",
+        "addr:province": "Callao",
+        "addr:street": "Jirón Mariano Melgar",
+        "amenity": "veterinary",
+        "name": "Canis",
+        "phone": "+51 6337099"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0941327,
+          -12.0404415
+        ]
+      },
+      "id": "node/3840334357"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4224825289",
+        "amenity": "veterinary",
+        "name": "Veterinaria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1250948,
+          -11.8576874
+        ]
+      },
+      "id": "node/4224825289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4299359690",
+        "amenity": "veterinary",
+        "name": "Emerg. Veter Q-Q"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9494928,
+          -12.1585036
+        ]
+      },
+      "id": "node/4299359690"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4331239977",
+        "addr:street": "Avenida Elmer Faucett",
+        "amenity": "veterinary",
+        "name": "Veterinaria Faucett",
+        "source": "Actualizaciones en Peru. Reconocimiento cartográfico 2016 por KG."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0978563,
+          -12.0573775
+        ]
+      },
+      "id": "node/4331239977"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4331454881",
+        "addr:street": "Puente Piedra",
+        "amenity": "veterinary",
+        "name": "Consorcio Vet",
+        "source": "Reconocimiento cartogáfico de campo por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0774819,
+          -11.8626779
+        ]
+      },
+      "id": "node/4331454881"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4331455494",
+        "addr:street": "Puente Piedra",
+        "amenity": "veterinary",
+        "name": "Veterinaria San Lorenzo",
+        "source": "Reconocimiento cartogáfico de campo por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0771822,
+          -11.8629162
+        ]
+      },
+      "id": "node/4331455494"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4331455507",
+        "addr:street": "Puente Piedra",
+        "amenity": "veterinary",
+        "name": "Dr. Tarazona",
+        "source": "Reconocimiento cartogáfico de campo por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0769697,
+          -11.8630858
+        ]
+      },
+      "id": "node/4331455507"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4331455510",
+        "addr:street": "Puente Piedra",
+        "amenity": "veterinary",
+        "name": "Veterinaria Cajamarquinos",
+        "source": "Reconocimiento cartogáfico de campo por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0769043,
+          -11.8631544
+        ]
+      },
+      "id": "node/4331455510"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4331502595",
+        "addr:street": "Avenida La Cordialidad",
+        "amenity": "veterinary",
+        "name": "Veterinaria",
+        "source": "Reconocimiento cartográfico por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0790003,
+          -11.9381302
+        ]
+      },
+      "id": "node/4331502595"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4332586358",
+        "addr:street": "La Confraternidad",
+        "amenity": "veterinary",
+        "name": "Veterinaría Pro",
+        "source": "Reconocimiento cartográfico por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0755741,
+          -11.9338508
+        ]
+      },
+      "id": "node/4332586358"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4332759785",
+        "addr:street": "Avenida Gaston Garcia Rada",
+        "amenity": "veterinary",
+        "name": "ZID",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.8250049,
+          -12.3323777
+        ]
+      },
+      "id": "node/4332759785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4332759890",
+        "addr:street": "Avenida Gaston Garcia Rada",
+        "amenity": "veterinary",
+        "name": "El Milter",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.8249888,
+          -12.3320428
+        ]
+      },
+      "id": "node/4332759890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4333066932",
+        "addr:street": "Jirón Carhuaz",
+        "amenity": "veterinary",
+        "name": "Veterinaria Medican's",
+        "source": "Reconocimiento cartográfico por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0505266,
+          -12.0541756
+        ]
+      },
+      "id": "node/4333066932"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4333079916",
+        "addr:street": "Avenida Mariano Condorcanqui",
+        "amenity": "veterinary",
+        "name": "Veterinaría",
+        "source": "Reconocimiento cartográfico por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0349506,
+          -11.8852452
+        ]
+      },
+      "id": "node/4333079916"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4334018176",
+        "amenity": "veterinary",
+        "source": "Reconocimiento cartogáfico de campo por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0743496,
+          -11.8813502
+        ]
+      },
+      "id": "node/4334018176"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4334159959",
+        "addr:street": "Avenida Tupac Amaru",
+        "amenity": "veterinary",
+        "name": "Happy Can",
+        "source": "Reconocimiento cartográfico por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0411812,
+          -11.9161144
+        ]
+      },
+      "id": "node/4334159959"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4334504881",
+        "addr:street": "Avenida San Felipe",
+        "amenity": "veterinary",
+        "name": "Veterinaría",
+        "source": "Reconocimiento cartográfico por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0347096,
+          -11.9074318
+        ]
+      },
+      "id": "node/4334504881"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4334591236",
+        "addr:postcode": "15074",
+        "addr:street": "Calle General Córdova",
+        "amenity": "veterinary",
+        "name": "San Diego",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0471789,
+          -12.1106354
+        ]
+      },
+      "id": "node/4334591236"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4334591255",
+        "addr:city": "Miraflores",
+        "addr:postcode": "15074",
+        "addr:street": "Calle General Córdova",
+        "amenity": "veterinary",
+        "name": "SOS Veterinaria",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0449219,
+          -12.1130103
+        ]
+      },
+      "id": "node/4334591255"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4334635799",
+        "Source": "Reconocimiento cartogáfico de campo por KG 2016.",
+        "addr:street": "Jirón Miguel Grau Oeste",
+        "amenity": "veterinary",
+        "name": "Landa Pets",
+        "source": "Reconocimiento cartográfico por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.023967,
+          -11.8830141
+        ]
+      },
+      "id": "node/4334635799"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4335631762",
+        "addr:street": "Avenida San Felipe",
+        "amenity": "veterinary",
+        "name": "Veterinaría",
+        "source": "Reconocimiento cartográfico por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0352862,
+          -11.907196
+        ]
+      },
+      "id": "node/4335631762"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4335631769",
+        "addr:street": "Avenida San Felipe",
+        "amenity": "veterinary",
+        "name": "Clinica Veterinaría Santa Rita",
+        "source": "Reconocimiento cartográfico por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0346642,
+          -11.9080723
+        ]
+      },
+      "id": "node/4335631769"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4335734857",
+        "amenity": "veterinary",
+        "name": "Dr. Veterinario",
+        "source": "Reconocimiento cartográfico por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0197885,
+          -11.8803219
+        ]
+      },
+      "id": "node/4335734857"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4335766359",
+        "addr:street": "El Alamo",
+        "amenity": "veterinary",
+        "source": "Reconocimiento cartogáfico de campo por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.06155,
+          -11.9209923
+        ]
+      },
+      "id": "node/4335766359"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4335790196",
+        "amenity": "veterinary",
+        "name": "Clinica Veterinaría",
+        "source": "Reconocimiento cartográfico por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0180746,
+          -11.8784032
+        ]
+      },
+      "id": "node/4335790196"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4335810378",
+        "amenity": "veterinary",
+        "name": "Veterinaría",
+        "source": "Reconocimiento cartográfico por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0170752,
+          -11.8771729
+        ]
+      },
+      "id": "node/4335810378"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4335833122",
+        "addr:street": "El Alamo",
+        "amenity": "veterinary",
+        "source": "Reconocimiento cartogáfico de campo por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0603444,
+          -11.9188562
+        ]
+      },
+      "id": "node/4335833122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4335833133",
+        "addr:street": "El Alamo",
+        "amenity": "veterinary",
+        "source": "Reconocimiento cartogáfico de campo por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0599054,
+          -11.9180671
+        ]
+      },
+      "id": "node/4335833133"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4336084953",
+        "addr:street": "Avenida Universitaria",
+        "amenity": "veterinary",
+        "name": "Clínica Veterinaría",
+        "source": "Reconocimiento cartográfico por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0548736,
+          -11.9316415
+        ]
+      },
+      "id": "node/4336084953"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4336098595",
+        "addr:street": "Avenida Universitaria",
+        "amenity": "veterinary",
+        "name": "Anubis",
+        "source": "Reconocimiento cartográfico por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0525619,
+          -11.9267707
+        ]
+      },
+      "id": "node/4336098595"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4336162822",
+        "addr:street": "Avenida Antonio de Sucre",
+        "amenity": "veterinary",
+        "name": "El Huron Azul",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0653153,
+          -12.0783061
+        ]
+      },
+      "id": "node/4336162822"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4336227969",
+        "addr:street": "Avenida Guillermo de la Fuente",
+        "amenity": "veterinary",
+        "name": "Clinica Veterinaría",
+        "source": "Reconocimiento cartográfico por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0653061,
+          -11.9420996
+        ]
+      },
+      "id": "node/4336227969"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4336231216",
+        "amenity": "veterinary",
+        "name": "Veterinaria Charlie Pett",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0484435,
+          -12.0551382
+        ]
+      },
+      "id": "node/4336231216"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4337197766",
+        "addr:street": "Avenida Guillermo de la Fuente",
+        "amenity": "veterinary",
+        "name": "Animal World",
+        "source": "Reconocimiento cartográfico por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0616428,
+          -11.9420099
+        ]
+      },
+      "id": "node/4337197766"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4337208667",
+        "addr:street": "Avenida Universitaria",
+        "amenity": "veterinary",
+        "name": "Happy Pets",
+        "source": "Reconocimiento cartográfico por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.060677,
+          -11.9424259
+        ]
+      },
+      "id": "node/4337208667"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4337242181",
+        "addr:street": "Avenida Universitaria",
+        "amenity": "veterinary",
+        "name": "Dr. Vet",
+        "source": "Reconocimiento cartográfico por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0565894,
+          -11.9361565
+        ]
+      },
+      "id": "node/4337242181"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4337311186",
+        "addr:street": "Avenida Universitaria",
+        "amenity": "veterinary",
+        "name": "Veterinaría",
+        "source": "Reconocimiento cartográfico por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0393204,
+          -11.9005922
+        ]
+      },
+      "id": "node/4337311186"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4337327228",
+        "addr:street": "Avenida Universitaria",
+        "amenity": "veterinary",
+        "name": "Clinica Veterinaría Letrel",
+        "source": "Reconocimiento cartográfico por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0378482,
+          -11.8979787
+        ]
+      },
+      "id": "node/4337327228"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4337345838",
+        "addr:street": "Avenida Universitaria",
+        "amenity": "veterinary",
+        "name": "Veterinaría",
+        "source": "Reconocimiento cartográfico por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0348648,
+          -11.8928423
+        ]
+      },
+      "id": "node/4337345838"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4337356398",
+        "addr:street": "Avenida Mariano Cornejo",
+        "amenity": "veterinary",
+        "name": "Veterinaría Allquimishi",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0689106,
+          -12.0675677
+        ]
+      },
+      "id": "node/4337356398"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4337668188",
+        "amenity": "veterinary",
+        "source": "Reconocimiento cartogáfico de campo por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0149331,
+          -11.8729206
+        ]
+      },
+      "id": "node/4337668188"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4337684068",
+        "addr:street": "Avenida Antigua Panamericana Sur",
+        "amenity": "veterinary",
+        "name": "Veterinaría D'Angelo",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.8502114,
+          -12.2972683
+        ]
+      },
+      "id": "node/4337684068"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4341314214",
+        "addr:street": "Avenida Del Rio",
+        "amenity": "veterinary",
+        "name": "Veterinaria Del Rio",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0548622,
+          -12.0697424
+        ]
+      },
+      "id": "node/4341314214"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4341329275",
+        "addr:city": "Villa El Salvador",
+        "addr:housenumber": "E15",
+        "addr:street": "Avenida María Elena Moyano",
+        "amenity": "veterinary",
+        "contact:facebook": "https://www.facebook.com/postaoasis.veterinaria/",
+        "contact:phone": "+511 268 6123;+51 976 128 233;+51 943 977 478",
+        "name": "Posta Veterinaria San Francisco de Asís",
+        "opening_hours": "Mo-Sa 08:00-17:00",
+        "operator": "Postaoasis Veterinaria",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG.",
+        "start_date": "2007"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9378418,
+          -12.2376512
+        ]
+      },
+      "id": "node/4341329275"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4341514608",
+        "addr:city": "Lince",
+        "addr:street": "Avenida General César Canevaro",
+        "amenity": "veterinary",
+        "name": "Veterinaría Lince",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0437017,
+          -12.0846768
+        ]
+      },
+      "id": "node/4341514608"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4341533337",
+        "addr:street": "Avenida San José",
+        "amenity": "veterinary",
+        "source": "Reconocimiento cartográfico por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.096165,
+          -12.0569433
+        ]
+      },
+      "id": "node/4341533337"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4341595614",
+        "amenity": "veterinary",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0418482,
+          -12.0868921
+        ]
+      },
+      "id": "node/4341595614"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4341600925",
+        "addr:city": "Lince",
+        "addr:street": "Avenida Julio Cesar Tello",
+        "amenity": "veterinary",
+        "name": "Alvavet",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0434851,
+          -12.087108
+        ]
+      },
+      "id": "node/4341600925"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4341614019",
+        "amenity": "veterinary",
+        "name": "Habu",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0758364,
+          -12.0951582
+        ]
+      },
+      "id": "node/4341614019"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4341838685",
+        "amenity": "veterinary",
+        "name": "Veterinaria",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0781492,
+          -12.0839123
+        ]
+      },
+      "id": "node/4341838685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4343039616",
+        "addr:street": "Avenida Arnaldo Márquez",
+        "amenity": "veterinary",
+        "name": "Hospital Canino",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.048393,
+          -12.0721066
+        ]
+      },
+      "id": "node/4343039616"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4343119852",
+        "amenity": "veterinary",
+        "name": "Clinica Veterinaria Dogtoras",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0735851,
+          -12.0877206
+        ]
+      },
+      "id": "node/4343119852"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4343286723",
+        "amenity": "veterinary",
+        "name": "Consultorio Veterinaria",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0779523,
+          -12.0897699
+        ]
+      },
+      "id": "node/4343286723"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4343286728",
+        "amenity": "veterinary",
+        "name": "Veterinaria Celivet",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0774393,
+          -12.090021
+        ]
+      },
+      "id": "node/4343286728"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4343647507",
+        "addr:street": "Avenida Los Arquitectos",
+        "amenity": "veterinary",
+        "name": "Veterinaría Mundo Animal",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1386556,
+          -11.8380943
+        ]
+      },
+      "id": "node/4343647507"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4343686211",
+        "addr:street": "Avenida 225",
+        "amenity": "veterinary",
+        "name": "Clinica Veterinaría",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1449579,
+          -11.8325969
+        ]
+      },
+      "id": "node/4343686211"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4344520474",
+        "addr:street": "Avenida 225",
+        "amenity": "veterinary",
+        "name": "Veterinaría San Bernardo",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1441187,
+          -11.8324931
+        ]
+      },
+      "id": "node/4344520474"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4344596625",
+        "addr:city": "Lince",
+        "addr:street": "Avenida Militar",
+        "amenity": "veterinary",
+        "name": "Kinder Pets",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.031487,
+          -12.0845405
+        ]
+      },
+      "id": "node/4344596625"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4346127095",
+        "amenity": "veterinary",
+        "name": "Veterinaria Car-val",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1053838,
+          -12.0568249
+        ]
+      },
+      "id": "node/4346127095"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4346155172",
+        "amenity": "veterinary",
+        "name": "Clinica Veterinaria",
+        "source": "Reconocimiento cartogáfico de campo por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0427921,
+          -11.9246797
+        ]
+      },
+      "id": "node/4346155172"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4346161329",
+        "amenity": "veterinary",
+        "name": "Veterinaria Gran Dames",
+        "source": "Reconocimiento cartogáfico de campo por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0427958,
+          -11.9247612
+        ]
+      },
+      "id": "node/4346161329"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4346212203",
+        "amenity": "veterinary",
+        "name": "Veterinaria Argos",
+        "source": "Reconocimiento cartogáfico de campo por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0489857,
+          -11.9365462
+        ]
+      },
+      "id": "node/4346212203"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4346555535",
+        "amenity": "veterinary",
+        "name": "La Perro Manial",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1056873,
+          -12.0568843
+        ]
+      },
+      "id": "node/4346555535"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4346560795",
+        "addr:housenumber": "108",
+        "addr:street": "Jirón Justo Naveda",
+        "amenity": "veterinary",
+        "name": "Veterinaría San Bernado",
+        "opening_hours": "Mo-Sa 11:00-21:00; Su 09:00-09:00, 13:00-13:00",
+        "phone": "+51 1 2514092",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0237968,
+          -12.1697742
+        ]
+      },
+      "id": "node/4346560795"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4346601049",
+        "addr:street": "Calle Luis Arias Schreiber",
+        "amenity": "veterinary",
+        "name": "Petland",
+        "source": "Reconocimiento cartográfico por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0114259,
+          -12.1222377
+        ]
+      },
+      "id": "node/4346601049"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4346612691",
+        "addr:street": "Jirón Colina",
+        "amenity": "veterinary",
+        "name": "Veterinaria Vargas",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1268491,
+          -12.0637719
+        ]
+      },
+      "id": "node/4346612691"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4346639053",
+        "addr:street": "Avenida General César Canevaro",
+        "amenity": "veterinary",
+        "name": "Vets Unidas",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0480831,
+          -12.0855384
+        ]
+      },
+      "id": "node/4346639053"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4347583128",
+        "amenity": "veterinary",
+        "name": "Patas y Colitas",
+        "source": "Reconocimiento cartográfico por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0533645,
+          -12.0769049
+        ]
+      },
+      "id": "node/4347583128"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4347704379",
+        "addr:street": "Avenida Brasil",
+        "amenity": "veterinary",
+        "name": "Animal's Point",
+        "source": "Reconocimiento cartográfico por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0593077,
+          -12.0813759
+        ]
+      },
+      "id": "node/4347704379"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4347791147",
+        "amenity": "veterinary",
+        "name": "Veterinaria Cossio",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0616658,
+          -12.1008465
+        ]
+      },
+      "id": "node/4347791147"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4347818330",
+        "addr:street": "Leoncio Prado",
+        "amenity": "veterinary",
+        "name": "Veterinaria",
+        "source": "Reconocimiento cartogáfico de campo por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0958296,
+          -11.848138
+        ]
+      },
+      "id": "node/4347818330"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4347829141",
+        "addr:city": "Miraflores",
+        "addr:postcode": "15047",
+        "addr:street": "Avenida Roca y Boloña",
+        "amenity": "veterinary",
+        "emergency": "yes",
+        "name": "Pet Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0184496,
+          -12.1207686
+        ]
+      },
+      "id": "node/4347829141"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4347954536",
+        "addr:street": "Avenida Defensores del Morro",
+        "amenity": "veterinary",
+        "name": "SOS Mascotas",
+        "phone": "+51 1 7956565",
+        "source": "Reconocimiento cartográfico por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0254632,
+          -12.1674549
+        ]
+      },
+      "id": "node/4347954536"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4347971018",
+        "addr:street": "Avenida Alejandro Iglesias",
+        "amenity": "veterinary",
+        "name": "Petises",
+        "source": "Reconocimiento cartográfico por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0270803,
+          -12.1696269
+        ]
+      },
+      "id": "node/4347971018"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4351303055",
+        "amenity": "veterinary",
+        "name": "Dr. Mascotas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9340356,
+          -12.2175762
+        ]
+      },
+      "id": "node/4351303055"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4351327734",
+        "addr:street": "Avenida Revolución",
+        "amenity": "veterinary",
+        "name": "Veterinaria",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9425719,
+          -12.2038488
+        ]
+      },
+      "id": "node/4351327734"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4351357573",
+        "Source": "Actualizaciones en Peru. Reconocimiento cartográfico por KG 2016",
+        "amenity": "veterinary",
+        "name": "Agroveterinary Pucallpa",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.871403,
+          -12.2749538
+        ]
+      },
+      "id": "node/4351357573"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4351358089",
+        "Source": "Actualizaciones en Peru. Reconocimiento cartográfico por KG 2016",
+        "amenity": "veterinary",
+        "name": "Agrivet S.A.C.",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.8716588,
+          -12.2746488
+        ]
+      },
+      "id": "node/4351358089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4351746115",
+        "addr:street": "Buenaventura Rey",
+        "amenity": "veterinary",
+        "fixme": "name",
+        "name": "Veterinaría",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9704788,
+          -12.1537179
+        ]
+      },
+      "id": "node/4351746115"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4351787455",
+        "addr:street": "Jirón Andrés Vesalio",
+        "amenity": "veterinary"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0008397,
+          -12.1051207
+        ]
+      },
+      "id": "node/4351787455"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4352778565",
+        "amenity": "veterinary",
+        "source": "Reconocimiento cartográfico por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0111717,
+          -12.0282992
+        ]
+      },
+      "id": "node/4352778565"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4353104239",
+        "amenity": "veterinary",
+        "source": "Reconocimiento cartográfico por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0102477,
+          -11.994064
+        ]
+      },
+      "id": "node/4353104239"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4353255096",
+        "addr:city": "Santiago de Surco",
+        "addr:housenumber": "386",
+        "addr:street": "Avenida El Polo",
+        "amenity": "veterinary",
+        "email": "servcliente@polovet.com.pe",
+        "name": "PoloVet",
+        "opening_hours": "24/7",
+        "operator": "Veterinaria El Polo",
+        "phone": "+51 1 4370290",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG",
+        "website": "https://polovet.com.pe/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9731886,
+          -12.1055526
+        ]
+      },
+      "id": "node/4353255096"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4354283642",
+        "amenity": "veterinary",
+        "name": "Veterinaria Ferrel",
+        "source": "Reconocimiento cartográfico por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9836704,
+          -11.9482952
+        ]
+      },
+      "id": "node/4354283642"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4354706304",
+        "addr:street": "Avenida Jose Carlos Mariategui",
+        "amenity": "veterinary",
+        "name": "Veterinaría",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9517551,
+          -12.1533006
+        ]
+      },
+      "id": "node/4354706304"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4354706362",
+        "addr:street": "Avenida Jose Carlos Mariategui",
+        "amenity": "veterinary",
+        "name": "Clinica Veterinaría",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9514909,
+          -12.1520774
+        ]
+      },
+      "id": "node/4354706362"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4355020558",
+        "addr:city": "Chor",
+        "addr:street": "Avenida Alameda Sur",
+        "amenity": "veterinary",
+        "name": "Veterinaria La Alameda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0118256,
+          -12.1976355
+        ]
+      },
+      "id": "node/4355020558"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4355050579",
+        "addr:street": "Avenida Los Horizontes",
+        "amenity": "veterinary",
+        "name": "Animal Clinic",
+        "source": "Reconocimiento cartográfico 2017 por Kaart."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0092883,
+          -12.2051844
+        ]
+      },
+      "id": "node/4355050579"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4355932059",
+        "amenity": "veterinary",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9263525,
+          -12.0334751
+        ]
+      },
+      "id": "node/4355932059"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4355953940",
+        "addr:street": "Las Orquideas",
+        "amenity": "veterinary",
+        "name": "Misky Pet",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9552882,
+          -12.162999
+        ]
+      },
+      "id": "node/4355953940"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4355976705",
+        "addr:street": "Calle Daniel Alcides Carrion",
+        "amenity": "veterinary",
+        "name": "Veterinaría Petshop Mis Patas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9098118,
+          -12.23651
+        ]
+      },
+      "id": "node/4355976705"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4356108069",
+        "amenity": "veterinary",
+        "source": "Reconocimiento cartográfico por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9921025,
+          -11.9711783
+        ]
+      },
+      "id": "node/4356108069"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4356461537",
+        "addr:street": "Avenida Miguel Iglesias",
+        "amenity": "veterinary",
+        "name": "Veterinaría",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9605178,
+          -12.1655944
+        ]
+      },
+      "id": "node/4356461537"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4356468548",
+        "addr:street": "Los Tusilagos Oeste",
+        "amenity": "veterinary",
+        "name": "Veterinaría",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0032342,
+          -12.0131089
+        ]
+      },
+      "id": "node/4356468548"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4356680113",
+        "amenity": "veterinary",
+        "name": "Veterinaria",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9976798,
+          -12.0777608
+        ]
+      },
+      "id": "node/4356680113"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4356680778",
+        "amenity": "veterinary",
+        "source": "Reconocimiento cartográfico por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0056235,
+          -11.9940877
+        ]
+      },
+      "id": "node/4356680778"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4356685672",
+        "addr:street": "Avenida Alfredo Benavides",
+        "amenity": "veterinary",
+        "name": "Clinica Veterinaria",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9985199,
+          -12.1289248
+        ]
+      },
+      "id": "node/4356685672"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4356760105",
+        "addr:city": "La Victoria",
+        "addr:street": "Avenida Isabel La Católica",
+        "amenity": "veterinary",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0207117,
+          -12.0693487
+        ]
+      },
+      "id": "node/4356760105"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4357626396",
+        "addr:street": "Avenida Alfredo Benavides",
+        "amenity": "veterinary",
+        "name": "Veterinaria Enciso",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9908196,
+          -12.1283256
+        ]
+      },
+      "id": "node/4357626396"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4357779608",
+        "addr:housenumber": "120",
+        "addr:street": "Avenida Palermo",
+        "amenity": "veterinary",
+        "name": "Veterinaria Mundocan",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0227614,
+          -12.0785523
+        ]
+      },
+      "id": "node/4357779608"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4357789059",
+        "addr:street": "Flora Tristan",
+        "amenity": "veterinary",
+        "name": "Animal Hospital",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9415571,
+          -12.0707676
+        ]
+      },
+      "id": "node/4357789059"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4357836931",
+        "addr:housenumber": "1330",
+        "addr:street": "Avenida Canadá",
+        "amenity": "veterinary",
+        "name": "Medic Vet",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0116752,
+          -12.0846978
+        ]
+      },
+      "id": "node/4357836931"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4358052591",
+        "addr:street": "Avenida Angélica Gamarra",
+        "amenity": "veterinary",
+        "name": "Vet Mas",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0745464,
+          -12.0066284
+        ]
+      },
+      "id": "node/4358052591"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4358098877",
+        "addr:street": "Avenida Angélica Gamarra",
+        "amenity": "veterinary",
+        "name": "El Trebol",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0661925,
+          -12.0054715
+        ]
+      },
+      "id": "node/4358098877"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4358189181",
+        "addr:street": "Avenida Guardia Civil Sur",
+        "amenity": "veterinary",
+        "name": "Clínica Veterinaria Family Pets",
+        "source": "Reconocimiento cartográfico 2017 por Kaart."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9905627,
+          -12.1671285
+        ]
+      },
+      "id": "node/4358189181"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4360983590",
+        "amenity": "veterinary",
+        "name": "Veterinaria PETS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0539693,
+          -11.9937421
+        ]
+      },
+      "id": "node/4360983590"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4361838166",
+        "addr:street": "Avenida Las Flores de Primavera",
+        "amenity": "veterinary",
+        "name": "Veterinaría Bryan",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0111371,
+          -12.0079809
+        ]
+      },
+      "id": "node/4361838166"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4361877715",
+        "addr:street": "Avenida Las Flores de Primavera",
+        "amenity": "veterinary",
+        "name": "Zoo",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0114705,
+          -12.0108069
+        ]
+      },
+      "id": "node/4361877715"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4362093570",
+        "addr:street": "Avenida 27 de Diciembre",
+        "amenity": "veterinary",
+        "name": "Veterinaria A&R",
+        "source": "Reconocimiento cartografico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9279692,
+          -12.1889843
+        ]
+      },
+      "id": "node/4362093570"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4362138232",
+        "amenity": "veterinary",
+        "name": "Veterinaria",
+        "source": "Reconocimiento cartográfico por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0596293,
+          -12.0148884
+        ]
+      },
+      "id": "node/4362138232"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4362190491",
+        "amenity": "veterinary",
+        "name": "Vererinaria",
+        "name:es": "Vererinaria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0307316,
+          -12.1024044
+        ]
+      },
+      "id": "node/4362190491"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4363097854",
+        "addr:street": "Avenida Tomas Valle",
+        "amenity": "veterinary",
+        "name": "Veterinaria Antares",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.080747,
+          -12.0124877
+        ]
+      },
+      "id": "node/4363097854"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4363373420",
+        "addr:street": "Avenida Las Palmeras",
+        "amenity": "veterinary",
+        "name": "Veterinaria",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0717147,
+          -11.9896456
+        ]
+      },
+      "id": "node/4363373420"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4363449596",
+        "addr:street": "Los Tusilagos Oeste",
+        "amenity": "veterinary",
+        "name": "Clínica Veterinaría",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0077504,
+          -12.0129541
+        ]
+      },
+      "id": "node/4363449596"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4363561565",
+        "addr:street": "Avenida de la Guardia Civil Sur",
+        "amenity": "veterinary",
+        "name": "Clínica Veterinaria",
+        "source": "Reconocimiento cartográfico 2017 por Kaart."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9905797,
+          -12.1643873
+        ]
+      },
+      "id": "node/4363561565"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4363609273",
+        "addr:street": "Avenida Pacasmayo",
+        "amenity": "veterinary",
+        "name": "Veterinaría",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1080761,
+          -11.9971425
+        ]
+      },
+      "id": "node/4363609273"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4363625281",
+        "addr:street": "Avenida Los Próceres",
+        "amenity": "veterinary",
+        "name": "Veterinaria Los Viñedos",
+        "source": "Reconocimiento cartográfico 2017 por Kaart."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9899199,
+          -12.1619232
+        ]
+      },
+      "id": "node/4363625281"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4363635911",
+        "addr:street": "Avenida Pacasmayo",
+        "amenity": "veterinary",
+        "name": "Veterinaria",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1029869,
+          -12.007223
+        ]
+      },
+      "id": "node/4363635911"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4363670631",
+        "addr:street": "Avenida Pacasmayo",
+        "amenity": "veterinary",
+        "name": "Clinica de Mascotas",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0995432,
+          -12.0149147
+        ]
+      },
+      "id": "node/4363670631"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4363686670",
+        "amenity": "veterinary",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0868642,
+          -12.0305485
+        ]
+      },
+      "id": "node/4363686670"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4363686690",
+        "addr:street": "Avenida Perú",
+        "amenity": "veterinary",
+        "name": "Perú Dog",
+        "phone": "+51 1 568 2986",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0877925,
+          -12.0304619
+        ]
+      },
+      "id": "node/4363686690"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4363687850",
+        "addr:street": "Avenida Las Palmeras",
+        "amenity": "veterinary",
+        "name": "Veterinaria",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0724143,
+          -11.9879256
+        ]
+      },
+      "id": "node/4363687850"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4365004494",
+        "amenity": "veterinary",
+        "name": "Veterinary Clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.993062,
+          -12.1120114
+        ]
+      },
+      "id": "node/4365004494"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4365285885",
+        "addr:street": "Avenida Pacasmayo",
+        "amenity": "veterinary",
+        "name": "Veterinaría",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1065778,
+          -12.0007189
+        ]
+      },
+      "id": "node/4365285885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4365296843",
+        "addr:street": "Avenida Pacasmayo",
+        "amenity": "veterinary",
+        "name": "Veterinaría",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1036684,
+          -12.0065412
+        ]
+      },
+      "id": "node/4365296843"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4365303904",
+        "addr:street": "Avenida Pacasmayo",
+        "amenity": "veterinary",
+        "name": "Mi Hermano Menor",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1032332,
+          -12.0074584
+        ]
+      },
+      "id": "node/4365303904"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4365370219",
+        "addr:street": "Avenida Tomas Valle",
+        "amenity": "veterinary",
+        "name": "Veterinaria",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0964722,
+          -12.0154035
+        ]
+      },
+      "id": "node/4365370219"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4365417367",
+        "amenity": "veterinary",
+        "name": "Veterinaria",
+        "source": "Reconocimiento cartográfico por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0791183,
+          -11.9485488
+        ]
+      },
+      "id": "node/4365417367"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4365457370",
+        "addr:street": "Avenida Santa Rosa de Lima",
+        "amenity": "veterinary",
+        "name": "Veterinaría",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0003512,
+          -11.9967839
+        ]
+      },
+      "id": "node/4365457370"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4365495954",
+        "amenity": "veterinary",
+        "name": "Veterinaria 911",
+        "source": "Reconocimiento cartográfico por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0891858,
+          -11.9434189
+        ]
+      },
+      "id": "node/4365495954"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4365496299",
+        "addr:street": "Avenida Las Palmeras",
+        "amenity": "veterinary",
+        "name": "Veterinaria",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0721314,
+          -11.9794528
+        ]
+      },
+      "id": "node/4365496299"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4365511077",
+        "amenity": "veterinary",
+        "name": "D'fashion Animal",
+        "source": "Reconocimiento cartográfico por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0779727,
+          -11.9356218
+        ]
+      },
+      "id": "node/4365511077"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4365511599",
+        "amenity": "veterinary",
+        "name": "Maskopets",
+        "source": "Reconocimiento cartográfico por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0759835,
+          -11.9360584
+        ]
+      },
+      "id": "node/4365511599"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4365597313",
+        "addr:street": "Avenida Aviación",
+        "amenity": "veterinary",
+        "name": "Veterinaria Eurovet",
+        "phone": "+51 1 271 4058",
+        "source": "Reconocimiento cartográfico 2017 por Kaart."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9988595,
+          -12.1179822
+        ]
+      },
+      "id": "node/4365597313"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4365607352",
+        "addr:street": "Avenida Aviación",
+        "amenity": "veterinary",
+        "name": "Veterinaria Aviación",
+        "source": "Reconocimiento cartográfico 2017 por Kaart."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9988166,
+          -12.1181127
+        ]
+      },
+      "id": "node/4365607352"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4366518315",
+        "amenity": "veterinary",
+        "name": "Inu Pets",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0999803,
+          -12.0217077
+        ]
+      },
+      "id": "node/4366518315"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4366558070",
+        "addr:street": "Avenida 13 de Enero",
+        "amenity": "veterinary",
+        "name": "Veterinaría",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.005361,
+          -11.9969331
+        ]
+      },
+      "id": "node/4366558070"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4366712358",
+        "addr:street": "Avenida Canta Callao",
+        "amenity": "veterinary",
+        "name": "La Franciscana",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0903119,
+          -11.9762714
+        ]
+      },
+      "id": "node/4366712358"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4366817510",
+        "addr:housenumber": "1441",
+        "addr:street": "Avenida Raúl Ferrero",
+        "amenity": "veterinary",
+        "name": "Pet's Place",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9522926,
+          -12.09154
+        ]
+      },
+      "id": "node/4366817510"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4366882491",
+        "addr:street": "Los Quechuas",
+        "amenity": "veterinary",
+        "source": "Reconocimiento cartografico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9768426,
+          -12.0760096
+        ]
+      },
+      "id": "node/4366882491"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4368078526",
+        "addr:housenumber": "581",
+        "addr:street": "Avenida Los Dominicos",
+        "amenity": "veterinary",
+        "email": "latino.mp7@gmail.com",
+        "internet_access": "wlan",
+        "name": "Veterinaria",
+        "name:es": "Veterinaria mi Hermano Menor",
+        "phone": "+51 972740614",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0936374,
+          -12.0161329
+        ]
+      },
+      "id": "node/4368078526"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4368123998",
+        "addr:street": "Avenida Los Dominicos",
+        "amenity": "veterinary",
+        "name": "Central Vet",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0987724,
+          -12.0076144
+        ]
+      },
+      "id": "node/4368123998"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4368167813",
+        "addr:street": "Avenida Los Próceres de Huandoy",
+        "amenity": "veterinary",
+        "name": "Rojas Veterinaria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0773006,
+          -11.9471535
+        ]
+      },
+      "id": "node/4368167813"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4368344993",
+        "addr:street": "Avenida José Granda",
+        "amenity": "veterinary",
+        "name": "Veterinaría José Granda",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0853158,
+          -12.0215777
+        ]
+      },
+      "id": "node/4368344993"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4368387686",
+        "addr:street": "Calle Los Halcones",
+        "amenity": "veterinary",
+        "name": "Veterinaria",
+        "name:en": "restaurant",
+        "name:es": "restaurante",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0936619,
+          -12.0151191
+        ]
+      },
+      "id": "node/4368387686"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4368419679",
+        "addr:street": "Avenida Los Dominicos",
+        "amenity": "veterinary",
+        "name": "Veterinaria",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0973235,
+          -12.0094319
+        ]
+      },
+      "id": "node/4368419679"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4368448757",
+        "addr:street": "Avenida Los Dominicos",
+        "amenity": "veterinary",
+        "name": "Veterinaria",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1029654,
+          -11.9979765
+        ]
+      },
+      "id": "node/4368448757"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4368600644",
+        "addr:street": "Avenida Paseo Quilca",
+        "amenity": "veterinary",
+        "name": "Lassy",
+        "phone": "+51 1 5749287"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.094292,
+          -12.0265568
+        ]
+      },
+      "id": "node/4368600644"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4369796240",
+        "addr:city": "La Victoria",
+        "addr:housenumber": "1905",
+        "addr:street": "Jirón Italia",
+        "amenity": "veterinary",
+        "name": "Veterinaría Mascotas",
+        "opening_hours": "09:00-21:00",
+        "source": "Reconocimiento cartográfico 2017 por Kaart."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0089826,
+          -12.068717
+        ]
+      },
+      "id": "node/4369796240"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4370139324",
+        "addr:city": "Lima",
+        "addr:street": "Avenida Nicolas Ayllon",
+        "amenity": "veterinary",
+        "name": "Veterinaría Central",
+        "source": "Reconocimiento cartográfico 2017 por Kaart."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0073759,
+          -12.0595997
+        ]
+      },
+      "id": "node/4370139324"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4374733840",
+        "addr:street": "Avenida Los Eucaliptos",
+        "amenity": "veterinary",
+        "name": "Veterinaria",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9769161,
+          -12.0459976
+        ]
+      },
+      "id": "node/4374733840"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4374733850",
+        "addr:street": "Enrique Quintana",
+        "amenity": "veterinary",
+        "name": "Centro Médico Veterinario",
+        "source": "Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9777567,
+          -12.0462283
+        ]
+      },
+      "id": "node/4374733850"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4375709623",
+        "amenity": "veterinary",
+        "name": "Clinica Veterinaria",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0782332,
+          -11.9799704
+        ]
+      },
+      "id": "node/4375709623"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4375859288",
+        "amenity": "veterinary",
+        "name": "Vyma's Vet",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0774301,
+          -12.017612
+        ]
+      },
+      "id": "node/4375859288"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4376000038",
+        "addr:street": "Calle 28 de Julio",
+        "amenity": "veterinary",
+        "name": "San Martin",
+        "source": "Reconocimiento cartografico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6950666,
+          -11.9368258
+        ]
+      },
+      "id": "node/4376000038"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4377818388",
+        "addr:housenumber": "1471",
+        "addr:street": "Carretera Central",
+        "amenity": "veterinary",
+        "name": "Paws and Claws",
+        "name:en": "Paws and Claws",
+        "name:es": "Paws and Claws",
+        "shop": "yes",
+        "source": "Reconocimiento cartografico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.7072588,
+          -11.9435392
+        ]
+      },
+      "id": "node/4377818388"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4379431849",
+        "amenity": "veterinary",
+        "name": "Castrovet",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.8234177,
+          -12.0143816
+        ]
+      },
+      "id": "node/4379431849"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4379446638",
+        "amenity": "veterinary",
+        "name": "Veterinaria Mayorga",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.825547,
+          -12.0129028
+        ]
+      },
+      "id": "node/4379446638"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4415198791",
+        "addr:city": "Breña",
+        "addr:street": "Jirón Independencia",
+        "amenity": "veterinary",
+        "name": "María Auxiliadora"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0485678,
+          -12.0619277
+        ]
+      },
+      "id": "node/4415198791"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4419543290",
+        "addr:street": "Jose Carlos Mariategui",
+        "amenity": "veterinary",
+        "name": "Veterinaria San Juan Bautista",
+        "name:es": "Veterinaria San Juan Bautista"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.911476,
+          -12.0259797
+        ]
+      },
+      "id": "node/4419543290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4465368269",
+        "amenity": "veterinary",
+        "name": "Veterinaria muncipal",
+        "operator": "Municipalida de Jesús María"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0401931,
+          -12.0693523
+        ]
+      },
+      "id": "node/4465368269"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4475910190",
+        "addr:housenumber": "803A",
+        "addr:postcode": "15064",
+        "addr:street": "Avenida de la Guardia Civil",
+        "amenity": "veterinary",
+        "email": "alfreml@hotmail.com",
+        "internet_access": "wlan",
+        "name": "Alfredo Marmanillo Leiva",
+        "name:es": "Alfredo Marmanillo Leiva",
+        "opening_hours": "Mo-Fr 10:00-18:00",
+        "phone": "+51 999270523"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9982736,
+          -12.1801731
+        ]
+      },
+      "id": "node/4475910190"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4483037784",
+        "addr:city": "Pueblo Libre",
+        "addr:street": "Jirón Jose Santiago Wagner",
+        "amenity": "veterinary",
+        "name": "Cavero"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0595653,
+          -12.0788937
+        ]
+      },
+      "id": "node/4483037784"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4489484921",
+        "amenity": "veterinary",
+        "name": "Centro de salud antirrábico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.062122,
+          -12.0498289
+        ]
+      },
+      "id": "node/4489484921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4710389810",
+        "addr:housenumber": "1400",
+        "addr:street": "Avenida Morales Duarez",
+        "amenity": "veterinary",
+        "name": "Servet",
+        "phone": "+51 1 4518832"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0848718,
+          -12.0375101
+        ]
+      },
+      "id": "node/4710389810"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4715660989",
+        "addr:housenumber": "1938",
+        "addr:postcode": "014",
+        "addr:street": "Avenida Ignacio Merino",
+        "amenity": "veterinary",
+        "email": "etoclivet@live.com",
+        "name": "Bon Ami",
+        "name:es": "Bon Ami",
+        "opening_hours": "24/7",
+        "phone": "+51 1 2657373"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0327273,
+          -12.0836873
+        ]
+      },
+      "id": "node/4715660989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4719574929",
+        "addr:housenumber": "1100",
+        "addr:street": "Avenida Morales Duarez",
+        "amenity": "veterinary",
+        "name": "Mascotas mimadas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0881434,
+          -12.0381088
+        ]
+      },
+      "id": "node/4719574929"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4741923924",
+        "amenity": "veterinary",
+        "name": "Veterinaria",
+        "name:es": "Veterinario de mis perros"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9239367,
+          -12.2292463
+        ]
+      },
+      "id": "node/4741923924"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4760927321",
+        "addr:housenumber": "2985",
+        "addr:street": "Jirón Juan Pérez de Tudela",
+        "amenity": "veterinary",
+        "name": "Misi Vet",
+        "phone": "+51994990636"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0782293,
+          -12.0374074
+        ]
+      },
+      "id": "node/4760927321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4765719522",
+        "addr:city": "Chorrillos",
+        "addr:housenumber": "110",
+        "addr:street": "Calle Toronto",
+        "amenity": "veterinary",
+        "name": "Veterinaria The Pet's Corner",
+        "name:en": "The Pet's Corner Veterinary",
+        "opening_hours": "Mo-Sa 09:00-18:00",
+        "phone": "+51 1 2527526"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0229446,
+          -12.1712201
+        ]
+      },
+      "id": "node/4765719522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4765731521",
+        "addr:city": "Chorrillos",
+        "addr:housenumber": "110",
+        "addr:street": "Jirón Ferrocarril",
+        "amenity": "veterinary",
+        "contact:email": "gamapetscare2006@hotmail.com",
+        "contact:facebook": "https://www.facebook.com/GAMA-PETS-CARE-352555454759865/",
+        "contact:phone": "+511 249 6467; +51 992154022",
+        "name": "Gama Pets Care",
+        "opening_hours": "Mo-Sa 08:00-21:00; Su 08:00-13:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0234325,
+          -12.1665272
+        ]
+      },
+      "id": "node/4765731521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4880939923",
+        "addr:city": "Miraflores",
+        "addr:housenumber": "739",
+        "addr:postcode": "15074",
+        "addr:street": "Calle Teniente Enrique Palacios",
+        "amenity": "veterinary",
+        "name": "Mis engreidos Veterinaria Pet shop",
+        "name:es": "Mis engreidos Veterinaria Pet shop",
+        "phone": "+51 998495549",
+        "website": "http://www.veterinariamisengreidos.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0362464,
+          -12.1170786
+        ]
+      },
+      "id": "node/4880939923"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4884153923",
+        "addr:city": "Miraflores",
+        "addr:postcode": "15074",
+        "addr:street": "Calle Teniente Enrique Palacios",
+        "amenity": "veterinary",
+        "name": "Villavet Clinica Veterinaria",
+        "name:es": "Villavet Clinica Veterinaria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0333481,
+          -12.1168698
+        ]
+      },
+      "id": "node/4884153923"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4884154022",
+        "amenity": "veterinary"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0352063,
+          -12.1178057
+        ]
+      },
+      "id": "node/4884154022"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4915723021",
+        "addr:city": "Miraflores",
+        "addr:housenumber": "710",
+        "addr:postcode": "15074",
+        "addr:street": "Calle 2 de Mayo",
+        "amenity": "veterinary",
+        "name": "Clinica Veterinaria San Diego",
+        "name:es": "Clinica Veterinaria San Diego"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0359446,
+          -12.1177832
+        ]
+      },
+      "id": "node/4915723021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5006023251",
+        "addr:street": "Avenida Caminos del Inca",
+        "amenity": "veterinary",
+        "name": "Agro Veterinaria",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0047275,
+          -12.1920805
+        ]
+      },
+      "id": "node/5006023251"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5007833719",
+        "addr:street": "Avenida Principal",
+        "amenity": "veterinary",
+        "name": "Emergencia Animal",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0196794,
+          -12.1931799
+        ]
+      },
+      "id": "node/5007833719"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5010111007",
+        "addr:city": "Barranco",
+        "addr:street": "Jirón Lima",
+        "amenity": "veterinary",
+        "name": "Veterinaria Barranco",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.018139,
+          -12.1476145
+        ]
+      },
+      "id": "node/5010111007"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5010209501",
+        "addr:street": "Avenida Jose Torres Paz",
+        "amenity": "veterinary",
+        "name": "Veterinaría Moyano",
+        "source": "Reconocimiento cartográfico por KG 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.971796,
+          -12.1516866
+        ]
+      },
+      "id": "node/5010209501"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5010414174",
+        "addr:street": "Avenida Jose Torres Paz",
+        "amenity": "veterinary",
+        "name": "El Sur",
+        "source": "Reconocimiento cartográfico por KG 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.971393,
+          -12.1507177
+        ]
+      },
+      "id": "node/5010414174"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5010415817",
+        "addr:city": "Villa El Salvador",
+        "addr:street": "Avenida Jorge Chávez",
+        "amenity": "veterinary",
+        "name": "Mi Pequeño Boxer",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9385228,
+          -12.2108222
+        ]
+      },
+      "id": "node/5010415817"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5012496271",
+        "addr:street": "Avenida Central",
+        "amenity": "veterinary",
+        "name": "Mundo Zoo",
+        "source": "Reconocimiento cartográfico por KG 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9675588,
+          -12.1433304
+        ]
+      },
+      "id": "node/5012496271"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5012731373",
+        "addr:city": "Villa El Salvador",
+        "addr:street": "Avenida Central",
+        "amenity": "veterinary",
+        "name": "Happy Pet",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9348258,
+          -12.2112666
+        ]
+      },
+      "id": "node/5012731373"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5012731419",
+        "addr:city": "Villa El Salvador",
+        "addr:street": "Avenida César Vallejo",
+        "amenity": "veterinary",
+        "name": "González",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9351117,
+          -12.2120654
+        ]
+      },
+      "id": "node/5012731419"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5012731531",
+        "addr:city": "Villa El Salvador",
+        "addr:street": "Avenida César Vallejo",
+        "amenity": "veterinary",
+        "name": "Veterinaria",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9353964,
+          -12.2122354
+        ]
+      },
+      "id": "node/5012731531"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5012803091",
+        "addr:street": "Avenida Central",
+        "amenity": "veterinary",
+        "name": "Vet-Sur",
+        "source": "Reconocimiento cartográfico por KG 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9675226,
+          -12.143691
+        ]
+      },
+      "id": "node/5012803091"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5020801343",
+        "addr:city": "Santiago de Surco",
+        "addr:street": "Avenida Mariscal Ramón Castilla",
+        "amenity": "veterinary",
+        "name": "Veterinaria Ruma Luma",
+        "operator": "Nutram",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0068095,
+          -12.1354324
+        ]
+      },
+      "id": "node/5020801343"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5020882296",
+        "addr:street": "Avenida 1ro de Mayo",
+        "amenity": "veterinary",
+        "name": "Consultorio Veterinario",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9487169,
+          -12.1926453
+        ]
+      },
+      "id": "node/5020882296"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5020882303",
+        "addr:street": "Avenida 1ro de Mayo",
+        "amenity": "veterinary",
+        "name": "Clinica Veterinaria",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9488789,
+          -12.1927437
+        ]
+      },
+      "id": "node/5020882303"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5022447821",
+        "addr:street": "Avenida Micaela Bastidas",
+        "amenity": "veterinary",
+        "name": "Veterniaria",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9562925,
+          -12.191928
+        ]
+      },
+      "id": "node/5022447821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5049794329",
+        "addr:city": "San Miguel",
+        "addr:housenumber": "647",
+        "addr:street": "Avenida Arica",
+        "amenity": "veterinary",
+        "name": "La casita del Schanauzer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0811581,
+          -12.0905261
+        ]
+      },
+      "id": "node/5049794329"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5049883051",
+        "addr:city": "San Miguel",
+        "addr:street": "Calle Monseñor Jorge Dintilhac",
+        "amenity": "veterinary",
+        "name": "Bertchi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.085337,
+          -12.0767891
+        ]
+      },
+      "id": "node/5049883051"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5054585558",
+        "addr:street": "Avenida Los Próceres de Huandoy",
+        "amenity": "veterinary",
+        "name": "Zoo Mania",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0802488,
+          -11.9695134
+        ]
+      },
+      "id": "node/5054585558"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5054619407",
+        "addr:street": "Avenida Simon Bolivar",
+        "amenity": "veterinary",
+        "name": "La Casa del Ganadero",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.2683215,
+          -11.5646613
+        ]
+      },
+      "id": "node/5054619407"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5054619415",
+        "addr:street": "Avenida Simon Bolivar",
+        "amenity": "veterinary",
+        "name": "Veterinaria Chancay",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.2684292,
+          -11.5644039
+        ]
+      },
+      "id": "node/5054619415"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5056639981",
+        "addr:street": "Avenida Las Palmeras",
+        "amenity": "veterinary",
+        "name": "Veterinaria Pet Shop",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0723691,
+          -11.9707276
+        ]
+      },
+      "id": "node/5056639981"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5056717774",
+        "addr:street": "Tantamayo",
+        "amenity": "veterinary",
+        "name": "Hapoy Dog",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0943864,
+          -11.9621196
+        ]
+      },
+      "id": "node/5056717774"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5058714883",
+        "addr:street": "Avenida Rómulo Betancourt",
+        "amenity": "veterinary",
+        "name": "Roque's Vet",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0802264,
+          -11.9522912
+        ]
+      },
+      "id": "node/5058714883"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5064245316",
+        "addr:street": "Tantamayo",
+        "amenity": "veterinary",
+        "name": "Veterinaria Laky",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0973809,
+          -11.9590975
+        ]
+      },
+      "id": "node/5064245316"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5064245435",
+        "addr:street": "Tantamayo",
+        "amenity": "veterinary",
+        "name": "Alkavet",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0979041,
+          -11.958572
+        ]
+      },
+      "id": "node/5064245435"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5064507002",
+        "addr:street": "Avenida Central",
+        "amenity": "veterinary",
+        "name": "Veterinaría Agroval",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0776919,
+          -11.958724
+        ]
+      },
+      "id": "node/5064507002"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5064725746",
+        "addr:street": "Avenida Malecón Chillón",
+        "amenity": "veterinary",
+        "name": "Clinica Veterinaria Portalino & Rondón",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0790777,
+          -11.9296698
+        ]
+      },
+      "id": "node/5064725746"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5064734379",
+        "amenity": "veterinary",
+        "name": "Patazas",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0823425,
+          -11.9228112
+        ]
+      },
+      "id": "node/5064734379"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5065009007",
+        "addr:housenumber": "1711",
+        "addr:street": "Avenida Naranjal",
+        "amenity": "veterinary",
+        "name": "Veterinaria Real",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0868037,
+          -11.9752488
+        ]
+      },
+      "id": "node/5065009007"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5065162788",
+        "addr:street": "Jirón Santa Aurelia",
+        "amenity": "veterinary",
+        "contact:facebook": "https://www.facebook.com/Animalvet.pe/",
+        "name": "Animal Vet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0907843,
+          -11.9470586
+        ]
+      },
+      "id": "node/5065162788"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5066874121",
+        "addr:street": "Avenida Central",
+        "amenity": "veterinary",
+        "name": "Veterinaria",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0854188,
+          -11.9551601
+        ]
+      },
+      "id": "node/5066874121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5067603041",
+        "addr:street": "Avenida José Carlos Mariátegui",
+        "amenity": "veterinary",
+        "name": "Zoolo + Cotas",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1664524,
+          -11.7763426
+        ]
+      },
+      "id": "node/5067603041"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5069889103",
+        "addr:street": "Avenida Circuvalación Este",
+        "amenity": "veterinary",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.2012938,
+          -11.4939919
+        ]
+      },
+      "id": "node/5069889103"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5076423938",
+        "addr:housenumber": "5105",
+        "addr:street": "Avenida Bemavides",
+        "amenity": "veterinary",
+        "name": "Veterinaria Benavides",
+        "phone": "+51 1 2754981",
+        "website": "http://veterinariabenavides.got.to/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9839279,
+          -12.1287688
+        ]
+      },
+      "id": "node/5076423938"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5082563093",
+        "addr:housenumber": "285",
+        "addr:street": "Avenida Euterpe",
+        "amenity": "veterinary",
+        "name": "Salud Animal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9801203,
+          -12.071992
+        ]
+      },
+      "id": "node/5082563093"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5169564930",
+        "addr:housenumber": "Mz. c lote 19",
+        "addr:street": "Avenida Miguel Iglesias",
+        "amenity": "veterinary"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9625717,
+          -12.1748193
+        ]
+      },
+      "id": "node/5169564930"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5169626722",
+        "addr:housenumber": "cdra.1",
+        "addr:street": "Ciro Alegria",
+        "amenity": "veterinary",
+        "name": "Pro Gallos Norte E.I.R.L"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0479746,
+          -11.9372867
+        ]
+      },
+      "id": "node/5169626722"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5186361122",
+        "addr:housenumber": "505",
+        "addr:street": "Jirón Andrés Vesalio",
+        "amenity": "veterinary",
+        "email": "jorgecarlos1008@gmail.com",
+        "internet_access": "wlan",
+        "name": "health pet",
+        "name:en": "calle vesalio",
+        "opening_hours": "Mo-Su 09:00-20:00",
+        "phone": "+51 1 5588254"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0013548,
+          -12.1053694
+        ]
+      },
+      "id": "node/5186361122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5207342793",
+        "amenity": "veterinary",
+        "name": "Carval"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9249256,
+          -12.0293344
+        ]
+      },
+      "id": "node/5207342793"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5207604221",
+        "addr:city": "Chosica",
+        "addr:housenumber": "110",
+        "addr:street": "Calle Salaverry",
+        "amenity": "veterinary",
+        "name": "Agro veterinaria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6923276,
+          -11.9327575
+        ]
+      },
+      "id": "node/5207604221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5207604321",
+        "addr:housenumber": "246",
+        "addr:street": "Avenida Lima Norte",
+        "amenity": "veterinary",
+        "name": "Veterinaria San Jose"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6787756,
+          -11.9227814
+        ]
+      },
+      "id": "node/5207604321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5259131961",
+        "addr:city": "San Juan de Miraflores",
+        "addr:housenumber": "155",
+        "addr:postcode": "15029",
+        "addr:street": "Avenida Los Lirios",
+        "amenity": "veterinary",
+        "name": "Veterinaria Huellitas Pet Shop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9817462,
+          -12.1514874
+        ]
+      },
+      "id": "node/5259131961"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5268846121",
+        "amenity": "veterinary",
+        "name": "Veterinaria Las Mascotas",
+        "opening_hours": "Mo-Sa 08:00-20:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.99951,
+          -12.0468543
+        ]
+      },
+      "id": "node/5268846121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5321006173",
+        "addr:city": "Villa María del Triunfo",
+        "addr:full": "Avenida Lima S/N, tienda 10 - Campamento UNACEM",
+        "addr:street": "Avenida Atocongo",
+        "amenity": "veterinary",
+        "contact:facebook": "https://es-la.facebook.com/zoolomaskota/",
+        "name": "Zoolo Maskotas",
+        "opening_hours": "Mo 09:00-19:00; Tu 09:00-14:00; We 09:00-19:00; Th-Su 09:00-17:00",
+        "operator": "Zoolomaskotas",
+        "phone": "+511 2931886"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9086839,
+          -12.1983073
+        ]
+      },
+      "id": "node/5321006173"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5380014121",
+        "addr:city": "Rímac",
+        "addr:housenumber": "Mz D lote 7",
+        "addr:street": "29 de Marzo",
+        "amenity": "veterinary",
+        "contact:facebook": "https://www.facebook.com/veterinariacielito",
+        "name": "Veterinaria CielitoVet",
+        "opening_hours": "Mo-Su 09:00-21:00",
+        "phone": "+51 944798603"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.022488,
+          -12.0383073
+        ]
+      },
+      "id": "node/5380014121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5468513701",
+        "addr:district": "San Martín de Porres",
+        "addr:housenumber": "Mz \"A\" Lote 21",
+        "addr:postcode": "31",
+        "addr:street": "Avenida Perú",
+        "amenity": "veterinary",
+        "name": "ZOOMED",
+        "opening_hours": "Mo-Fr 09:30-20:00; Sa 09:30-19:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0985535,
+          -11.9850883
+        ]
+      },
+      "id": "node/5468513701"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5483410803",
+        "addr:housenumber": "555",
+        "addr:street": "Avenida Los Olivos",
+        "amenity": "veterinary",
+        "name": "Pet World",
+        "opening_hours": "Mo-Sa 09:00-20:30; Su 09:00-16:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0873999,
+          -11.9868459
+        ]
+      },
+      "id": "node/5483410803"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5615899921",
+        "addr:housenumber": "1463",
+        "addr:street": "Ignacio Alvarez Thomas",
+        "amenity": "veterinary",
+        "name": "All to pets",
+        "opening_hours": "Tu-Su 09:00-18:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0610912,
+          -12.0513857
+        ]
+      },
+      "id": "node/5615899921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5810743055",
+        "amenity": "veterinary",
+        "name": "Veterinaria Gardenias Pets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0360655,
+          -11.9059834
+        ]
+      },
+      "id": "node/5810743055"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5862394638",
+        "amenity": "veterinary",
+        "contact:facebook": "https://www.facebook.com/clinipetslima/",
+        "level": "2",
+        "name": "Clini Pets",
+        "phone": "+51 1 5214436"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0618253,
+          -11.9956903
+        ]
+      },
+      "id": "node/5862394638"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5876911839",
+        "addr:city": "San Martín de Porres",
+        "addr:street": "Nicolás Aranibar",
+        "amenity": "veterinary",
+        "contact:facebook": "https://www.facebook.com/VeterinariaLIMA/",
+        "email": "veterinarialima@gmail.com",
+        "name": "Veterinaria Lima",
+        "opening_hours": "Mo-Sa 09:00-18:00; Su 09:00-15:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0604263,
+          -12.0260857
+        ]
+      },
+      "id": "node/5876911839"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5876946117",
+        "addr:city": "San Borja",
+        "addr:housenumber": "2570",
+        "addr:street": "Avenida San Luis",
+        "amenity": "veterinary",
+        "name": "Clínica veterinaria PetCenter",
+        "opening_hours": "Mo-Sa 08:30-20:30",
+        "operator": "Clínica veterinaria PetCenter",
+        "phone": "+51 1 7177777",
+        "website": "http://www.petcenter.com.pe/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9951288,
+          -12.0991783
+        ]
+      },
+      "id": "node/5876946117"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5876964668",
+        "addr:city": "Cercado de Lima",
+        "addr:housenumber": "273",
+        "addr:street": "Avenida Ramon Herrera",
+        "amenity": "veterinary",
+        "name": "Veterinaria municipal",
+        "note": "Ver https://www.facebook.com/MuniLima/videos/envivo-mml-inaugura-veterinaria-en-la-av-ram%C3%B3n-herrera-en-el-cercado-de-lima-don/1826715190733116/",
+        "operator": "COMAIN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.078145,
+          -12.0522815
+        ]
+      },
+      "id": "node/5876964668"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5982202001",
+        "amenity": "veterinary"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0402841,
+          -11.8979699
+        ]
+      },
+      "id": "node/5982202001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6138043927",
+        "addr:city": "San Martín de Porres",
+        "addr:housenumber": "505",
+        "addr:postcode": "31",
+        "addr:street": "Jirón Chiclayo",
+        "amenity": "veterinary",
+        "description": "Clínica de mascotas. Venta de alimentos, accesorios. Tratamientos, vacunas, cirugías, certificados para viaje, profilaxis dental, baño de mascotas, grooming.",
+        "email": "consultas@faunaurbana.net",
+        "name": "Veterinaria Fauna Urbana",
+        "note": "Emergencias 24 horas previa llamada al 945100944",
+        "opening_hours": "Mo-Su 09:00-18:00",
+        "phone": "+51 1 5720003",
+        "website": "http://faunaurbana.net"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0933938,
+          -12.0304044
+        ]
+      },
+      "id": "node/6138043927"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6185047385",
+        "addr:housenumber": "431",
+        "addr:street": "Calle José Gálvez",
+        "amenity": "veterinary",
+        "name": "Veterinaria",
+        "name:en": "Veterinarian"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0341286,
+          -12.1213633
+        ]
+      },
+      "id": "node/6185047385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6510220400",
+        "amenity": "veterinary"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0894279,
+          -12.0398442
+        ]
+      },
+      "id": "node/6510220400"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6563778443",
+        "addr:housenumber": "176",
+        "addr:street": "Avenida José de San Martín",
+        "amenity": "veterinary",
+        "contact:facebook": "https://www.facebook.com/alertavet/",
+        "name": "Alerta Vet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0615682,
+          -12.0689507
+        ]
+      },
+      "id": "node/6563778443"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6606177558",
+        "amenity": "veterinary",
+        "name": "Veterinaria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9901072,
+          -12.1468895
+        ]
+      },
+      "id": "node/6606177558"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6606177563",
+        "addr:housenumber": "183",
+        "addr:street": "Calle Hércules",
+        "amenity": "veterinary",
+        "name": "Pet Lima",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9908307,
+          -12.147001
+        ]
+      },
+      "id": "node/6606177563"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6606190496",
+        "addr:housenumber": "372",
+        "addr:street": "Jirón El Sol",
+        "amenity": "veterinary",
+        "name": "Veterinaria San Roque",
+        "opening_hours": "Mo-Sa 09:00-20:00; PH 08:45-14:00; Su 09:00-14:00",
+        "phone": "+51 1 2822054"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9889977,
+          -12.1460637
+        ]
+      },
+      "id": "node/6606190496"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6630375577",
+        "addr:city": "San Juan de Miraflores",
+        "addr:housenumber": "994",
+        "addr:street": "Avenida Defensores de Lima",
+        "amenity": "veterinary",
+        "contact:facebook": "https://www.facebook.com/VeterinariaBienestarAnimal/",
+        "name": "Clínica Veterinaria Bienestar Animal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9610046,
+          -12.1552699
+        ]
+      },
+      "id": "node/6630375577"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7214074357",
+        "amenity": "veterinary",
+        "name": "Mr Pet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.8980526,
+          -12.083046
+        ]
+      },
+      "id": "node/7214074357"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7594008697",
+        "addr:city": "Villa El Salvador",
+        "addr:housenumber": "431",
+        "addr:neighbourhood": "Sector 1 Grupo 3",
+        "addr:street": "Avenida 1ro de Mayo",
+        "amenity": "veterinary",
+        "contact:facebook": "https://www.facebook.com/clivetpanda/",
+        "email": "clivetpanda@gmail.com",
+        "name": "Veterinaria Panda",
+        "opening_hours": "24/7",
+        "phone": "+51 1 2924795;+51 1 2925206",
+        "ref": "Primero de Mayo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9443009,
+          -12.190751
+        ]
+      },
+      "id": "node/7594008697"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7594008698",
+        "addr:city": "Villa El Salvador",
+        "addr:housenumber": "437",
+        "addr:neighbourhood": "Sector 1 Grupo 3",
+        "addr:street": "Avenida 1ro de Mayo",
+        "amenity": "veterinary",
+        "contact:facebook": "https://www.facebook.com/Veterinaria-Zevallos-205845346265213/",
+        "contact:whatsapp": "+51 935879390",
+        "email": "veterinariazevallos@hotmail.com",
+        "name": "Veterinaria Zevallos",
+        "opening_hours": "Mo-Sa 08:00-20:00; Su 09:00-17:00",
+        "phone": "+51 1 401468"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9443681,
+          -12.1907825
+        ]
+      },
+      "id": "node/7594008698"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7594034290",
+        "addr:city": "Villa El Salvador",
+        "addr:full": "Avenida José Carlos Mariátegui Sector 3 Grupo 16 Manzana P Lote 01",
+        "addr:neighbourhood": "Sector 3 Grupo 16",
+        "addr:street": "Avenida José Carlos Mariátegui",
+        "amenity": "veterinary",
+        "contact:facebook": "https://www.facebook.com/clivetpanda/",
+        "email": "clivetpanda@gmail.com",
+        "name": "Veterinaria Panda",
+        "phone": "+51 1 2877645;+51 940575746",
+        "ref": "Mariátegui"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9331444,
+          -12.2219366
+        ]
+      },
+      "id": "node/7594034290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7668189507",
+        "addr:city": "Miraflores",
+        "addr:housenumber": "391",
+        "addr:postcode": "15074",
+        "addr:street": "Avenida Del Ejército",
+        "amenity": "veterinary",
+        "name": "Veterinaria Miraflores",
+        "opening_hours": "Mo-Sa 09:00-19:00",
+        "opening_hours:covid19": "open"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0448655,
+          -12.1170084
+        ]
+      },
+      "id": "node/7668189507"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7697751434",
+        "amenity": "veterinary",
+        "name": "Don Rufo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9817338,
+          -11.9483181
+        ]
+      },
+      "id": "node/7697751434"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7700127659",
+        "addr:housenumber": "2589",
+        "addr:street": "Auxiliar Avenida Angamos Este",
+        "amenity": "veterinary",
+        "contact:facebook": "https://www.facebook.com/PharMiVet",
+        "email": "torresdelimatambo@pharmivet.pe",
+        "name": "PharMiVet",
+        "opening_hours": "Mo-Fr 09:00-16:00; Sa 09:00-16:00",
+        "phone": "+51 987 426 887",
+        "website": "https://www.pharmivet.pe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0036737,
+          -12.1116459
+        ]
+      },
+      "id": "node/7700127659"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7732697112",
+        "addr:city": "Villa El Salvador",
+        "addr:full": "Avenida Pastor Sevilla, Sector 2 Grupo 24A Mz J lote 17",
+        "addr:street": "Avenida Mariano Pastor Sevilla",
+        "amenity": "veterinary",
+        "contact:email": "gonvetperu@hotmail.com",
+        "contact:facebook": "https://www.facebook.com/Veterinaria-Gonzalez-Hospital-Clinica-554503434759415/",
+        "contact:phone": "+511 4933033;+51 948153163",
+        "name": "Clínica Veterinaria Gonzáles",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9470209,
+          -12.2150918
+        ]
+      },
+      "id": "node/7732697112"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7993524807",
+        "addr:city": "Villa María del Triunfo",
+        "addr:housenumber": "480",
+        "addr:street": "Avenida Nicolás de Piérola",
+        "amenity": "veterinary",
+        "contact:email": "policlinicoveterinariocitovet@gmail.com",
+        "contact:facebook": "https://www.facebook.com/policlinicocitovet/",
+        "contact:phone": "+511 577 7803;+51 995510962",
+        "description": "Policlínico veterinario, guardería y hospedaje para animales.",
+        "name": "Citoved",
+        "opening_hours": "Mo-Su 09:00-23:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9528278,
+          -12.1638013
+        ]
+      },
+      "id": "node/7993524807"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8013656965",
+        "addr:city": "Villa María del Triunfo",
+        "addr:housenumber": "3673",
+        "addr:street": "Avenida Pachacútec",
+        "amenity": "veterinary",
+        "contact:email": "consultas@hospivetsur.com",
+        "contact:facebook": "https://es-la.facebook.com/hospivetsur/",
+        "contact:phone": "+511 4504450;+51 990957645",
+        "contact:website": "https://hospivetsur.com/",
+        "name": "Hospivet Sur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9437536,
+          -12.1792536
+        ]
+      },
+      "id": "node/8013656965"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8104800201",
+        "addr:city": "Villa El Salvador",
+        "addr:full": "Sector 9 Grupo 4 Manzana E Lote 15",
+        "addr:street": "Avenida María Elena Moyano",
+        "amenity": "veterinary",
+        "contact:facebook": "https://www.facebook.com/hospitalveterinario.oasisdelsur/",
+        "contact:instagram": "https://www.instagram.com/vet_oasis_del_sur/",
+        "contact:phone": "+511 7605380;+51 922 666 911",
+        "name": "Hospital Veterinario Oasis del Sur",
+        "old_name": "Veterinaria Posta Oasis",
+        "opening_hours": "Mo-Sa 08:00-18:00; Su 09:00-13:00",
+        "short_name": "Oasis del Sur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9379527,
+          -12.2375685
+        ]
+      },
+      "id": "node/8104800201"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8205912267",
+        "addr:city": "Villa El Salvador",
+        "addr:full": "Manzana F Lote 10 Sector 9 Grupo 4",
+        "addr:street": "Avenida María Elena Moyano",
+        "amenity": "veterinary",
+        "contact:facebook": "https://www.facebook.com/hospitalveterinario.oasisdelsur/",
+        "contact:instagram": "https://www.instagram.com/vet_oasis_del_sur/",
+        "contact:phone": "+51 975 054 628;+51 979 755 553",
+        "name": "Veterinaria Posta Oasis",
+        "opening_hours": "Mo-Sa 08:00-18:00; Su 08:00-12:00",
+        "short_name": "Oasis del Sur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9378864,
+          -12.2377108
+        ]
+      },
+      "id": "node/8205912267"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8467787518",
+        "addr:city": "Surquillo",
+        "addr:housenumber": "320",
+        "addr:street": "Calle Adam Smith",
+        "amenity": "veterinary",
+        "contact:email": "terchez@hotmail.com",
+        "contact:facebook": "https://www.facebook.com/valevetperu/",
+        "contact:phone": "+51 1 2684596;+51 994 004 345",
+        "name": "Vale Vet",
+        "opening_hours": "Mo-Sa 09:00-17:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0033573,
+          -12.1174846
+        ]
+      },
+      "id": "node/8467787518"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8681055028",
+        "amenity": "veterinary",
+        "name": "Gala Pets",
+        "phone": "+51 943788544;+51 1 2887133"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0508286,
+          -12.0773214
+        ]
+      },
+      "id": "node/8681055028"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8699377509",
+        "addr:district": "Jesús María",
+        "addr:housenumber": "573",
+        "addr:street": "Avenida Húsares de Junín",
+        "amenity": "veterinary",
+        "name": "Pet Love",
+        "phone": "+51 1 4336160;+51 993888860"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0497754,
+          -12.0781976
+        ]
+      },
+      "id": "node/8699377509"
+    }
+  ]
+}
