@@ -14,10 +14,6 @@ var UsuarioSchema = mongoose.Schema({
         type: String,
         required: true
     },
-    correo: {
-        type: String,
-        required: true
-    },
     departamento: {
         type: String
     },
@@ -59,10 +55,7 @@ var UsuarioSchema = mongoose.Schema({
 })
 
 
-UsuarioSchema.path('correo').validate(function (correo) {
-    const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-    return re.test(correo.toLowerCase());
- }, 'El correo debe ser valido.')
+
 
 
 const Usuario = mongoose.model('usuario', UsuarioSchema)

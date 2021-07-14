@@ -1,6 +1,7 @@
 const express = require('express')
 const bodyParser = require('body-parser');
 const cors = require('cors')
+const dotenv = require('dotenv')
 
 const { DistritoController } = require('./controllers/distritos_controller');
 const { UsuarioController } = require('./controllers/usuarios_controller');
@@ -9,10 +10,13 @@ const { PublicacionController } = require('./controllers/publicacion_controller'
 const { DepartamentoController } = require('./controllers/departamentos_controller');
 const { ProvinciaController } = require('./controllers/provincia_controller');
 
+
+dotenv.config();
+
 const app = express();
 
-app.use(cors())
 
+app.use(cors())
 app.use(bodyParser.json());
 
 
@@ -23,6 +27,7 @@ app.get('/distritos/:idprov', DistritoController.findByIdProv)
 
 
 // usuarios
+app.post('/registro', UsuarioController.registro)
 app.post('/usuario', UsuarioController.post)
 app.get('/usuarios', UsuarioController.findAll)
 app.get('/usuario/:id', UsuarioController.findById)

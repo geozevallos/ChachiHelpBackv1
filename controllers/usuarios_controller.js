@@ -1,8 +1,23 @@
 const {Distrito } = require("../db");
 const { Usuario } = require("../models/usuario_models");
+const { Registro } = require("../models/registro_model");
 
 
 class UsuarioController{
+
+    static registro(req, res){
+        let registroData = req.body
+
+        let nuevoRegistro = new Registro(registroData);
+        nuevoRegistro.save().then(data => {
+            res.send(data)
+        }).catch(err => {
+            res.status(500).send({
+                message: err.message
+            })
+        })
+
+    }
 
     static post(req, res){
         // localhost:7100/usuario?long=-76.9782623&lat=-12.1519949
