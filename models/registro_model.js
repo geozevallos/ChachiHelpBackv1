@@ -4,16 +4,17 @@ const bcrypt = require('bcrypt')
 var RegistroSchema = mongoose.Schema({
     correo: {
         type: String,
-        required: true
+        required: true,
+        index: { unique: true }
     },
     password: {
         type: String,
         required: true
+    },
+    usuario: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'usuario'
     }
-    // usuario: {
-    //     type: mongoose.Schema.Types.ObjectId,
-    //     ref: 'usuario'
-    // }
 })
 
 RegistroSchema.path('correo').validate(function (correo) {
@@ -39,3 +40,7 @@ RegistroSchema.pre('save', function(next){
 })
 
 const Registro = mongoose.model('registro', RegistroSchema)
+
+module.exports = {
+    Registro
+}

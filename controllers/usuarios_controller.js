@@ -5,12 +5,53 @@ const { Registro } = require("../models/registro_model");
 
 class UsuarioController{
 
+/**
+ * localhost:7100/registro?iddist=60e9f0b2848ad4cb16eaa344
+    {
+    "correo": "abcededa@gmail.com",
+    "password": "aasdadad",
+    "usuario": {
+            "nombre": "Pepito",
+            "apellidos": "Cuajinais Palacios",
+            "nickname": "elgatovolador",
+            "celular": "985645875"
+    }
+}
+ */
+
     static registro(req, res){
         let registroData = req.body
+        let usuarioData = req.body.usuario
 
-        let nuevoRegistro = new Registro(registroData);
-        nuevoRegistro.save().then(data => {
-            res.send(data)
+        let pk = req.query.iddist
+
+        Distrito.findById(pk).then(distr => {
+            let datos = distr.toObject()
+            let dep = datos.properties.DEPARTAMEN
+            let prov = datos.properties.PROVINCIA
+            let dist = datos.properties.DISTRITO
+
+            usuarioData.departamento = dep
+            usuarioData.provincia = prov
+            usuarioData.distrito = dist
+
+            let nuevoUsuario = new Usuario(usuarioData);
+
+            nuevoUsuario.save().then(data => {
+                let nuevoRegistro = new Registro(registroData)
+                nuevoRegistro.usuario = data._id
+                nuevoRegistro.save().then(data => {
+                    res.send('El usuario se ha registrado correctamente')
+                }).catch(err => {
+                    res.status(500).send({
+                        message: err.message
+                    })
+                })
+            }).catch(err => {
+                res.status(500).send({
+                    message: err.message
+                })
+            })
         }).catch(err => {
             res.status(500).send({
                 message: err.message
@@ -21,13 +62,7 @@ class UsuarioController{
 
     static post(req, res){
         // localhost:7100/usuario?long=-76.9782623&lat=-12.1519949
-        // {
-        //     "nombre": "Fernando",
-        //     "apellidos": "Rojas Palacios",
-        //     "nickname": "Fpalacios23",
-        //     "correo": "fer_palacios@gmail.com",
-        //     "celular": "985645875"
-        // }
+
         let long = +req.query.long;
         let lat = +req.query.lat
         let coords = [long, lat]
