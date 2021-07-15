@@ -9,7 +9,9 @@ const { VeterinariaController } = require('./controllers/veterinarias_controller
 const { PublicacionController } = require('./controllers/publicacion_controller');
 const { DepartamentoController } = require('./controllers/departamentos_controller');
 const { ProvinciaController } = require('./controllers/provincia_controller');
+const { RegistroController } = require('./controllers/registro_controller');
 
+const authmiddleware = require('./middlewares/jwt_atenticacion');
 
 dotenv.config();
 
@@ -34,6 +36,9 @@ app.get('/usuario/:id', UsuarioController.findById)
 app.put('/usuario/:id', UsuarioController.update)
 app.delete('/usuario/:id', UsuarioController.safeDelete)
 
+// login
+app.post('/auth', RegistroController.auth)
+
 
 // Veterinarias
 app.get('/veterinarias', VeterinariaController.get)
@@ -41,6 +46,7 @@ app.get('/vetnear', VeterinariaController.findNear)
 
 //publicacion
 app.post('/publicacion', PublicacionController.Crear)
+app.post('/hola', authmiddleware, PublicacionController.Hola)
 
 app.listen(7100, () => {
     console.log('server running at localhost:7100');

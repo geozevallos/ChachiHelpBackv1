@@ -32,6 +32,10 @@ class PublicacionController{
         })
     }
 
+    static Hola(req, res){
+        console.log(res.locals.payload);
+    }
+
 
 }
 

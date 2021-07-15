@@ -11,7 +11,8 @@ function authenticateToken(req, res, next){
         if(err){
             res.sendStatus(401);
         } else {
-            res.status(200).send(payload);
+            // res.status(200).send(payload);
+            res.locals.payload = payload
         }
 
         next()

@@ -39,6 +39,31 @@ RegistroSchema.pre('save', function(next){
     })
 })
 
+
+RegistroSchema.statics.autenticar = function(correo, password, callback){
+    Registro.findOne({correo: correo}).exec((err, usuario) => {
+        if (err){
+            return callback(err);
+        } else if(!usuario){
+            let err = new Error("Usuario no encontrado")
+            err.status = 401
+            return callback(err)
+        } else {
+            bcrypt.compare(password, usuario.password, function(
+                err, result
+            ){
+                if(result == true){
+                    return callback(null, usuario)
+                } else {
+                    let err = new Error("Clave incorrecta")
+                    err.status = 401
+                    return callback(err)
+                }
+            })
+        }
+    })
+}
+
 const Registro = mongoose.model('registro', RegistroSchema)
 
 module.exports = {
