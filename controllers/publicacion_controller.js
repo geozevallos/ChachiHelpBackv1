@@ -52,6 +52,33 @@ class PublicacionController{
             })
     }
 
+    // localhost:7100/publicaciones?long=-76.9782623&lat=-12.1519949&maxdist=500
+    static findNearMe(req, res){
+        let long = +req.query.long;
+        let lat = +req.query.lat
+        let maxdist = +req.query.maxdist
+        let coords = [long, lat]
+
+        Publicacion.find().near('localizacion', {center: {type: 'Point', coordinates:coords}, maxDistance: maxdist})
+            .then(data => {
+                res.send(data)
+            }).catch(err => {
+                res.status(404).send({
+                    message: err
+                })
+            })
+    }
+
+    static findAll(req,res){
+        Publicacion.find().populate('usuarioregistro')
+        .then(data => {
+            res.send(data)
+        }).catch(err => {
+            res.status(404).send({
+                message: err.message
+            })
+        })
+    }
     
 
 

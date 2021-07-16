@@ -30,7 +30,6 @@ app.get('/distritos/:idprov', DistritoController.findByIdProv)
 
 // usuarios
 app.post('/registro', UsuarioController.registro)
-
 app.get('/usuarios', UsuarioController.findAll)
 app.get('/usuario/:id', UsuarioController.findById)
 app.put('/usuario/:id', UsuarioController.update)
@@ -46,7 +45,8 @@ app.get('/vetnear', VeterinariaController.findNear)
 
 //publicacion
 app.post('/publicacion', authmiddleware, PublicacionController.Crear)
-
+app.get('/publicacionescerca', PublicacionController.findNearMe)
+app.get('/publicaciones', PublicacionController.findAll)
 
 app.listen(7100, () => {
     console.log('server running at localhost:7100');
