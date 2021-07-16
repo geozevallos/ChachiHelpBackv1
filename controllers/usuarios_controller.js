@@ -60,44 +60,7 @@ class UsuarioController{
 
     }
 
-    static post(req, res){
-        // localhost:7100/usuario?long=-76.9782623&lat=-12.1519949
-
-        let long = +req.query.long;
-        let lat = +req.query.lat
-        let coords = [long, lat]
-
-        Distrito.find({}).where('geometry').intersects().geometry({type: 'Point', coordinates: coords})
-        .then(data => {
-                let datos = data[0].toObject();
-                let dep = datos.properties.DEPARTAMEN
-                let prov = datos.properties.PROVINCIA
-                let dist = datos.properties.DISTRITO
-                
-                let json_data = req.body
-                json_data.departamento = dep
-                json_data.provincia = prov
-                json_data.distrito = dist
-
-                const usuario_nuevo = new Usuario(json_data)
-
-                usuario_nuevo.save().then(data => {
-                    res.send(data)
-                }).catch(err => {
-                    res.status(500).send({
-                        message: err.message
-                    })
-                })
-
-
-            }).catch(err => {
-                res.status(500).send({
-                    message: err.message
-                })
-            })
-    }
-
-
+    
     static safeDelete(req, res){
         let pk = req.params.id
         let data = {

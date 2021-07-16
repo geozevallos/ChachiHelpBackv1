@@ -28,7 +28,20 @@ var PublicacionSchema = mongoose.Schema({
           type: [Number],
           required: true
         }
-      }
+    },
+    departamento: {
+        type: String
+    },
+    provincia: {
+        type: String
+    },
+    distrito: {
+        type: String
+    },
+    usuarioregistro: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'registro'
+    }
 })
 
 

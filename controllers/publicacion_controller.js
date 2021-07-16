@@ -1,3 +1,4 @@
+const { Distrito } = require("../db")
 const { Publicacion } = require("../models/publicacion_model")
 
 class PublicacionController{
@@ -19,22 +20,39 @@ class PublicacionController{
     // }
 
     static Crear(req, res){
-        let json_data = req.body
+        let usuario_pk = res.locals.payload.id
+        let coords = req.body.localizacion.coordinates
+        
+        Distrito.find({}).where('geometry').intersects().geometry({type: 'Point', coordinates: coords})
+            .then(data => {
+                let datos = data[0].toObject();
+                let dep = datos.properties.DEPARTAMEN
+                let prov = datos.properties.PROVINCIA
+                let dist = datos.properties.DISTRITO
 
-        const nueva_pub = new Publicacion(json_data)
+                let json_data = req.body
+                json_data.departamento = dep
+                json_data.provincia = prov
+                json_data.distrito = dist
+                json_data.usuarioregistro = usuario_pk
 
-        nueva_pub.save().then(data => {
-            res.send(data)
-        }).catch(err => {
-            res.status(500).send({
-                message: err.message
+                const nueva_publicacion = new Publicacion(json_data)
+
+                nueva_publicacion.save().then(data =>{
+                    res.send(data)
+                }).catch(err => {
+                    res.status(500).send({
+                        message: err.message
+                    })
+                })
+            }).catch(err => {
+                res.status(500).send({
+                    message: err.message
+                })
             })
-        })
     }
 
-    static Hola(req, res){
-        console.log(res.locals.payload);
-    }
+    
 
 
 }
