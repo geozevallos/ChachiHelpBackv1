@@ -5,7 +5,7 @@ var PublicacionSchema = mongoose.Schema({
         type: String,
         required: true
     },
-    idtipopub: {
+    tipopub: {
         type: String,
         required: true
     },
@@ -41,6 +41,10 @@ var PublicacionSchema = mongoose.Schema({
     usuarioregistro: {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'registro'
+    },
+    datoanimal: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'animal'
     }
 })
 

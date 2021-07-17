@@ -48,6 +48,8 @@ app.post('/publicacion', authmiddleware, PublicacionController.Crear)
 app.get('/publicacionescerca', PublicacionController.findNearMe)
 app.get('/publicaciones', PublicacionController.findAll)
 
+// app.post('/nuevapub', authmiddleware, PublicacionController.Nuevapub)
+
 app.listen(7100, () => {
     console.log('server running at localhost:7100');
 })
