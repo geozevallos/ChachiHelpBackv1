@@ -2,6 +2,8 @@ const express = require('express')
 const bodyParser = require('body-parser');
 const cors = require('cors')
 const dotenv = require('dotenv')
+const path = require('path')
+const multer  = require('multer')
 
 const { DistritoController } = require('./controllers/distritos_controller');
 const { UsuarioController } = require('./controllers/usuarios_controller');
@@ -20,6 +22,17 @@ const app = express();
 
 app.use(cors())
 app.use(bodyParser.json());
+
+
+const storage =  multer.diskStorage({
+    destination: path.join(__dirname, 'uploads'),
+    filename: (req, file, cb, filename)=>{
+        cb(null, `${Date.now()}-${file.originalname}`)
+    }
+})
+
+app.use(multer({storage: storage}).single('avatar'))
+// var upload = multer({storage: storage})
 
 
 // Ubicacion

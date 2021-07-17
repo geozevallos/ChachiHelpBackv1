@@ -14,7 +14,8 @@ class UsuarioController{
             "nombre": "Pepito",
             "apellidos": "Cuajinais Palacios",
             "nickname": "elgatovolador",
-            "celular": "985645875"
+            "celular": "985645875",
+            
     }
 }
  */
@@ -22,7 +23,7 @@ class UsuarioController{
     static registro(req, res){
         let registroData = req.body
         let usuarioData = req.body.usuario
-
+        let avatar = req.file.filename
         let pk = req.query.iddist
 
         Distrito.findById(pk).then(distr => {
@@ -34,6 +35,7 @@ class UsuarioController{
             usuarioData.departamento = dep
             usuarioData.provincia = prov
             usuarioData.distrito = dist
+            usuarioData.avatar = avatar
 
             let nuevoUsuario = new Usuario(usuarioData);
 

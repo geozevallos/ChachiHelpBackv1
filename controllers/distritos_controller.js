@@ -8,7 +8,14 @@ class DistritoController{
         let idprov = req.params.idprov
         Distrito.find({"properties.IDPROV": idprov}, {properties:1}).
             then(data => {
-                res.send(data)
+                let datin = []
+                data.forEach(data => {
+                    let datos = data.toObject();
+                    let datos2 = {label:datos.properties.DISTRITO, value: datos.properties.IDDIST}
+                    datin.push(datos2)
+                });
+                console.log(datin);
+                res.send(datin);
             }).catch(err => {
                 res.status(404).send({
                     message: err.message
