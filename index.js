@@ -37,8 +37,10 @@ const storage =  multer.diskStorage({
     }
 })
 
-app.use(multer({storage: storage}).single('avatar'))
-// var upload = multer({storage: storage})
+// app.use(multer({storage: storage}).single('avatar'))
+var upload = multer({storage: storage})
+
+
 
 
 // Ubicacion
@@ -47,7 +49,10 @@ app.get('/provincias/:iddpto', ProvinciaController.findByIdDpto)
 app.get('/distritos/:idprov', DistritoController.findByIdProv)
 
 //Cargar imagen
-app.post('/uploagimage', ImagenController.uploadImage)
+app.post('/uploadimage', upload.single('avatar'),ImagenController.uploadImage)
+app.post('/uploadimages', upload.array('fotos', 3),ImagenController.uploadMultipleImages)
+
+
 
 
 // usuarios
