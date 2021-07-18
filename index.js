@@ -14,10 +14,16 @@ const { ProvinciaController } = require('./controllers/provincia_controller');
 const { RegistroController } = require('./controllers/registro_controller');
 
 const authmiddleware = require('./middlewares/jwt_atenticacion');
+const { ImagenController } = require('./controllers/imagen_controller');
 
 dotenv.config();
 
 const app = express();
+
+
+// static files
+// Esta sería la URL: http://localhost:7100/img/uploads/1626503101235-images.jpg
+app.use(express.static(path.join(__dirname, 'public')));
 
 
 app.use(cors())
@@ -25,7 +31,7 @@ app.use(bodyParser.json());
 
 
 const storage =  multer.diskStorage({
-    destination: path.join(__dirname, 'uploads'),
+    destination: path.join(__dirname, 'public/img/uploads'),
     filename: (req, file, cb, filename)=>{
         cb(null, `${Date.now()}-${file.originalname}`)
     }
@@ -39,6 +45,9 @@ app.use(multer({storage: storage}).single('avatar'))
 app.get('/departamentos', DepartamentoController.findAll)
 app.get('/provincias/:iddpto', ProvinciaController.findByIdDpto)
 app.get('/distritos/:idprov', DistritoController.findByIdProv)
+
+//Cargar imagen
+app.post('/uploagimage', ImagenController.uploadImage)
 
 
 // usuarios
