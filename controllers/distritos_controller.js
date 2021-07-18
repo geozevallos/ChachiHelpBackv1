@@ -14,7 +14,6 @@ class DistritoController{
                     let datos2 = {label:datos.properties.DISTRITO, value: datos.properties.IDDIST}
                     datin.push(datos2)
                 });
-                console.log(datin);
                 res.send(datin);
             }).catch(err => {
                 res.status(404).send({

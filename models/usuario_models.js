@@ -15,8 +15,7 @@ var UsuarioSchema = mongoose.Schema({
         required: true
     },
     avatar: {
-        type: String,
-        required: true
+        type: String
     },
     departamento: {
         type: String
@@ -39,6 +38,9 @@ var UsuarioSchema = mongoose.Schema({
     fecha_elim: {
         type: Date
     },
+    fecha_creacion:{
+        type: Date
+    }
     // guardado:   
     // guardado: 
     //     [{
