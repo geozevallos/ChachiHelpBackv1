@@ -1,64 +1,85 @@
-const jwt = require('jsonwebtoken')
-const { Registro } = require('../models/registro_model')
-
+const jwt = require("jsonwebtoken");
+const { Registro } = require("../models/registro_model");
+const { Usuario } = require("../models/usuario_models");
 
 class RegistroController {
+  // {
+  //     "correo": "abcededa@gmail.com",
+  //     "password": "aasdadad"
+  // }
 
+  static auth(req, res) {
+    let correo = req.body.correo;
+    let password = req.body.password;
 
-    // {
-    //     "correo": "abcededa@gmail.com",
-    //     "password": "aasdadad"
-    // }
+    Registro.autenticar(correo, password, (err, usuario) => {
+      if (err) {
+        err.status = 401;
+        res.sendStatus(401);
+      } else {
+        let usuariopk = usuario.usuario;
+        Usuario.findById(usuariopk, { __v:0})
+          .then((data) => {
 
-    static auth(req,res){
-        let correo = req.body.correo
-        let password = req.body.password
+            let payload = { 
+                correo: usuario.correo, 
+                id: usuario._id,
+                nombre: data.nombre,
+                apellidos: data.apellidos,
+                nickname: data.nickname,
+                avatar: data?.avatar
+            };
 
+            const token = jwt.sign(payload, process.env.TOKEN_SECRET, {
+                expiresIn: "1800s",
+              });
+              res.json(token);
 
-        Registro.autenticar(correo, password, (err, usuario) => {
-            if(err){
-                err.status = 401
-                res.sendStatus(401)
-            } else {
-                let payload = {correo: usuario.correo, id: usuario._id}
-                const token = jwt.sign(payload, process.env.TOKEN_SECRET, {expiresIn: '1800s'})
-                res.json(token)
-            }
-        })
-    }
-
-
-    static findAll(req, res){
-        Registro.find({},{password:0, __v:0}).
-        populate({
-            path: 'usuario',
-            select: '-__v'
-        }).then((data) => {
-            res.send(data);
           })
           .catch((err) => {
-            res.status(500).send({
+            res.status(404).send({
               message: err.message,
             });
           });
-    }
+        
+        
 
+      }
+    });
+  }
 
-    static findById(req, res){
-        let pk = req.params.id;
-        Registro.findById(pk, {password:0, __v:0}).populate({
-            path: 'usuario',
-            select: '-__v'            
-        }).then((data) => {
-            res.send(data);
-          })
-          .catch((err) => {
-            res.status(500).send({
-              message: err.message,
-            });
-          });
-    }
+  static findAll(req, res) {
+    Registro.find({}, { password: 0, __v: 0 })
+      .populate({
+        path: "usuario",
+        select: "-__v",
+      })
+      .then((data) => {
+        res.send(data);
+      })
+      .catch((err) => {
+        res.status(500).send({
+          message: err.message,
+        });
+      });
+  }
+
+  static findById(req, res) {
+    let pk = req.params.id;
+    Registro.findById(pk, { password: 0, __v: 0 })
+      .populate({
+        path: "usuario",
+        select: "-__v",
+      })
+      .then((data) => {
+        res.send(data);
+      })
+      .catch((err) => {
+        res.status(500).send({
+          message: err.message,
+        });
+      });
+  }
 }
 
-
-module.exports = {RegistroController}
+module.exports = { RegistroController };
