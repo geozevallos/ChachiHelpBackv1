@@ -141,7 +141,10 @@ class PublicacionController{
 
     static findAll(req,res){
         Publicacion.find()
-        .populate('usuarioregistro')
+        .populate({
+            path: 'usuarioregistro',
+            populate: {path: 'usuario', select: '-__v'}
+        })
         .populate('datoanimal')
         .then(data => {
             res.send(data)

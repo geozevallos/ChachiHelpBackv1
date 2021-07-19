@@ -10,10 +10,6 @@ var UsuarioSchema = mongoose.Schema({
     type: String,
     required: true,
   },
-  nickname: {
-    type: String,
-    required: true,
-  },
   avatar: {
     type: String,
   },

@@ -25,8 +25,6 @@ class RegistroController {
                 correo: usuario.correo, 
                 id: usuario._id,
                 nombre: data.nombre,
-                apellidos: data.apellidos,
-                nickname: data.nickname,
                 avatar: data?.avatar
             };
 
