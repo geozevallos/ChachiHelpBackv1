@@ -27,7 +27,11 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 
 app.use(cors())
-app.use(bodyParser.json());
+// app.use(bodyParser.json());
+app.use(express.json());
+app.use(express.urlencoded({
+  extended: true
+}));
 
 
 const storage =  multer.diskStorage({
@@ -57,6 +61,9 @@ app.post('/uploadimages', upload.array('fotos', 3),ImagenController.uploadMultip
 
 // usuarios
 app.post('/registro', UsuarioController.registro)
+app.get('/registros', RegistroController.findAll)
+app.get('/registro/:id', RegistroController.findById)
+
 app.get('/usuarios', UsuarioController.findAll)
 app.get('/usuario/:id', UsuarioController.findById)
 app.put('/usuario/:id', UsuarioController.update)
@@ -74,6 +81,11 @@ app.get('/vetnear', VeterinariaController.findNear)
 app.post('/publicacion', authmiddleware, PublicacionController.Crear)
 app.get('/publicacionescerca', PublicacionController.findNearMe)
 app.get('/publicaciones', PublicacionController.findAll)
+app.get('/publicacion/:id', PublicacionController.findById)
+app.get('/publicacionbyuser/:iduser', PublicacionController.findbyUser)
+
+
+
 
 // app.post('/nuevapub', authmiddleware, PublicacionController.Nuevapub)
 

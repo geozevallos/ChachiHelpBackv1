@@ -25,8 +25,38 @@ class RegistroController {
                 res.json(token)
             }
         })
+    }
 
 
+    static findAll(req, res){
+        Registro.find({},{password:0, __v:0}).
+        populate({
+            path: 'usuario',
+            select: '-__v'
+        }).then((data) => {
+            res.send(data);
+          })
+          .catch((err) => {
+            res.status(500).send({
+              message: err.message,
+            });
+          });
+    }
+
+
+    static findById(req, res){
+        let pk = req.params.id;
+        Registro.findById(pk, {password:0, __v:0}).populate({
+            path: 'usuario',
+            select: '-__v'            
+        }).then((data) => {
+            res.send(data);
+          })
+          .catch((err) => {
+            res.status(500).send({
+              message: err.message,
+            });
+          });
     }
 }
 
