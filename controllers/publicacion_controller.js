@@ -141,11 +141,16 @@ class PublicacionController{
 
     static findAll(req,res){
         Publicacion.find()
+        .select('-__v')
         .populate({
             path: 'usuarioregistro',
+            select: '-__v -password',
             populate: {path: 'usuario', select: '-__v'}
         })
-        .populate('datoanimal')
+        .populate({
+            path: 'datoanimal',
+            select: '-__v',
+        })
         .then(data => {
             res.send(data)
         }).catch(err => {
@@ -159,7 +164,8 @@ class PublicacionController{
         let pk = req.params.id;
         Publicacion.findById(pk, {__v:0}).populate({
             path: 'usuarioregistro',
-            select: '-__v'            
+            select: '-__v -password',
+            populate: {path: 'usuario', select: '-__v'}            
         }).populate({
             path: 'datoanimal',
             select: '-__v'            
@@ -173,19 +179,6 @@ class PublicacionController{
           });
     }
 
-    // static findbyUser(req, res){
-    //     let iduser = req.params.id;
-    //     Publicacion.find({ usuarioregistro: iduser })
-    //     .populate('usuarioregistro')
-    //     .populate('datoanimal')
-    //     .then(data => {
-    //         res.send(data)
-    //     }).catch(err => {
-    //         res.status(404).send({
-    //             message: err.message
-    //         })
-    //     })
-    // }
 
     static findbyUser(req, res){
         let iduser = req.params.iduser;

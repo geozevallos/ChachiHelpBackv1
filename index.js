@@ -15,6 +15,7 @@ const { RegistroController } = require('./controllers/registro_controller');
 
 const authmiddleware = require('./middlewares/jwt_atenticacion');
 const { ImagenController } = require('./controllers/imagen_controller');
+const validateToken = require('./middlewares/validate');
 
 dotenv.config();
 
@@ -72,6 +73,9 @@ app.delete('/usuario/:id', UsuarioController.safeDelete)
 // login
 app.post('/auth', RegistroController.auth)
 
+// Validate
+app.get('/validate', validateToken)
+
 
 // Veterinarias
 app.get('/veterinarias', VeterinariaController.get)
@@ -83,7 +87,6 @@ app.get('/publicacionescerca', PublicacionController.findNearMe)
 app.get('/publicaciones', PublicacionController.findAll)
 app.get('/publicacion/:id', PublicacionController.findById)
 app.get('/publicacionbyuser/:iduser', PublicacionController.findbyUser)
-
 
 
 

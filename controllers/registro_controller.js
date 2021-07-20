@@ -21,8 +21,7 @@ class RegistroController {
         Usuario.findById(usuariopk, { __v:0})
           .then((data) => {
 
-            let payload = { 
-                correo: usuario.correo, 
+            let payload = {  
                 id: usuario._id,
                 nombre: data.nombre,
                 avatar: data?.avatar
