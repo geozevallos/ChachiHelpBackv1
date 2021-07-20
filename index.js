@@ -16,6 +16,7 @@ const { RegistroController } = require('./controllers/registro_controller');
 const authmiddleware = require('./middlewares/jwt_atenticacion');
 const { ImagenController } = require('./controllers/imagen_controller');
 const validateToken = require('./middlewares/validate');
+const { AnimalController } = require('./controllers/animalController');
 
 dotenv.config();
 
@@ -90,6 +91,8 @@ app.get('/publicacion/:id', PublicacionController.findById)
 app.get('/publicacionbyuser/:iduser', PublicacionController.findbyUser)
 app.get('/publicacionbytype/:idtype', PublicacionController.findByType)
 
+//Animal
+app.get('/animal/query', AnimalController.findAnimal)
 
 
 // app.post('/nuevapub', authmiddleware, PublicacionController.Nuevapub)
