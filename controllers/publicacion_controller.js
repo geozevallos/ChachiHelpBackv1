@@ -128,8 +128,15 @@ class PublicacionController{
 
         Publicacion.find()
             .near('localizacion', {center: {type: 'Point', coordinates:coords}, maxDistance: maxdist})
-            .populate('usuarioregistro')
-            .populate('datoanimal')
+            .populate({
+                path: 'usuarioregistro',
+                select: '-__v -password',
+                populate: {path: 'usuario', select: '-__v'}
+            })
+            .populate({
+                path: 'datoanimal',
+                select: '-__v',
+            })
             .then(data => {
                 res.send(data)
             }).catch(err => {
@@ -182,9 +189,16 @@ class PublicacionController{
 
     static findbyUser(req, res){
         let iduser = req.params.iduser;
-        Publicacion.find({ usuarioregistro: iduser })
-        .populate('usuarioregistro')
-        .populate('datoanimal')
+        Publicacion.find({ usuarioregistro: iduser }, {__v:0})
+        .populate({
+            path: 'usuarioregistro',
+            select: '-__v -password',
+            populate: {path: 'usuario', select: '-__v'}            
+        })
+        .populate({
+            path: 'datoanimal',
+            select: '-__v'            
+        })
         .then(data => {
             res.send(data)
         }).catch(err => {

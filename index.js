@@ -81,6 +81,7 @@ app.get('/validate', validateToken)
 app.get('/veterinarias', VeterinariaController.get)
 app.get('/vetnear', VeterinariaController.findNear)
 
+
 //publicacion
 app.post('/publicacion', authmiddleware, PublicacionController.Crear)
 app.get('/publicacionescerca', PublicacionController.findNearMe)
