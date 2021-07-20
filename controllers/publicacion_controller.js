@@ -116,7 +116,7 @@ class PublicacionController{
             })
         })
 
-        console.log(nuevoAnimal)
+
     }
 
     // localhost:7100/publicaciones?long=-76.9782623&lat=-12.1519949&maxdist=500
@@ -146,17 +146,68 @@ class PublicacionController{
             })
     }
 
+    // static findAll(req,res){
+    //     Publicacion.find()
+    //     .select('-__v')
+    //     .populate({
+    //         path: 'usuarioregistro',
+    //         select: '-__v -password',
+    //         populate: {path: 'usuario', select: '-__v'}
+    //     })
+    //     .populate({
+    //         path: 'datoanimal',
+    //         select: '-__v',
+    //     })
+    //     .then(data => {
+    //         res.send(data)
+    //     }).catch(err => {
+    //         res.status(404).send({
+    //             message: err.message
+    //         })
+    //     })
+    // }
+
+
+    // localhost:7100/publicaciones?limit=2&page=2
     static findAll(req,res){
-        Publicacion.find()
-        .select('-__v')
-        .populate({
-            path: 'usuarioregistro',
-            select: '-__v -password',
-            populate: {path: 'usuario', select: '-__v'}
-        })
-        .populate({
-            path: 'datoanimal',
+        Publicacion.paginate({}, {
             select: '-__v',
+            populate: [{
+                path: 'usuarioregistro',
+                select: '-__v -password',
+                populate: {path: 'usuario', select: '-__v'}
+            },{
+                path: 'datoanimal',
+                select: '-__v',
+            }],
+            page: req.query.page,
+            limit: req.query.limit
+        })
+        .then(data => {
+            res.send(data)
+        }).catch(err => {
+            res.status(404).send({
+                message: err.message
+            })
+        })
+    }
+
+
+    // localhost:7100/publicaciones?limit=2&page=2
+    static findByType(req,res){
+        let tipo = req.params.idtype
+        Publicacion.paginate({tipopub:tipo}, {
+            select: '-__v',
+            populate: [{
+                path: 'usuarioregistro',
+                select: '-__v -password',
+                populate: {path: 'usuario', select: '-__v'}
+            },{
+                path: 'datoanimal',
+                select: '-__v',
+            }],
+            page: req.query.page,
+            limit: req.query.limit
         })
         .then(data => {
             res.send(data)

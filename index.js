@@ -88,6 +88,7 @@ app.get('/publicacionescerca', PublicacionController.findNearMe)
 app.get('/publicaciones', PublicacionController.findAll)
 app.get('/publicacion/:id', PublicacionController.findById)
 app.get('/publicacionbyuser/:iduser', PublicacionController.findbyUser)
+app.get('/publicacionbytype/:idtype', PublicacionController.findByType)
 
 
 

@@ -1,4 +1,5 @@
 const mongoose = require('mongoose')
+const mongoosePaginate = require('mongoose-paginate-v2');
 
 var PublicacionSchema = mongoose.Schema({
     titulo: {
@@ -45,9 +46,13 @@ var PublicacionSchema = mongoose.Schema({
     datoanimal: {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'animal'
-    }
-})
+    },
+    
+}, {
+    timestamps: true
+  })
 
+PublicacionSchema.plugin(mongoosePaginate);
 
 PublicacionSchema.index({localizacion: '2dsphere'});
 
