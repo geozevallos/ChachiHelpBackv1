@@ -91,7 +91,8 @@ app.get('/publicacion/:id', PublicacionController.findById)
 app.get('/publicacionbyuser/:iduser', PublicacionController.findbyUser)
 app.get('/publicacionbytype/:idtype', PublicacionController.findByType)
 
-//Animal
+
+//Query Animal
 app.get('/animal/query', AnimalController.findAnimal)
 
 
