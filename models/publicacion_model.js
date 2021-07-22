@@ -2,10 +2,6 @@ const mongoose = require('mongoose')
 const mongoosePaginate = require('mongoose-paginate-v2');
 
 var PublicacionSchema = mongoose.Schema({
-    titulo: {
-        type: String,
-        required: true
-    },
     tipopub: {
         type: String,
         required: true

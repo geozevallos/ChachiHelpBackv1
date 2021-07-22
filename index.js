@@ -91,7 +91,7 @@ app.get('/publicacion/:id', PublicacionController.findById)
 app.get('/publicacionbyuser/:iduser', PublicacionController.findbyUser)
 app.get('/publicacionbytype/:idtype', PublicacionController.findByType)
 
-app.put('/publicacion/:id', PublicacionController.updatePublicacion)
+app.put('/publicacion/:id', authmiddleware, PublicacionController.updatePublicacion)
 
 
 //Query Animal

@@ -32,9 +32,6 @@ var UsuarioSchema = mongoose.Schema({
   celular: {
     type: String,
   },
-  telefono: {
-    type: String,
-  },
   eliminado: {
     type: Boolean,
   },

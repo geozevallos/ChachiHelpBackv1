@@ -11,7 +11,6 @@ class UsuarioController {
     "usuario": {
             "nombre": "Pepito",
             "apellidos": "Cuajinais Palacios",
-            "nickname": "elgatovolador",
             "celular": "985645875",
             "departamento": "LIMA",
             "provincia": "LIMA",

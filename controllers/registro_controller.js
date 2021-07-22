@@ -6,6 +6,8 @@ class RegistroController {
   // {
   //     "correo": "abcededa@gmail.com",
   //     "password": "aasdadad"
+  //     "correo": "juasda@gmail.com",
+  //     "password": "aasdadad"
   // }
 
   static auth(req, res) {

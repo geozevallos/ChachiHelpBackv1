@@ -8,7 +8,6 @@ class PublicacionController {
  * 
  
     {
-        "titulo": "Perro perdido",
         "tipopub": "01",
         "imagen": "imagen.png",
         "descripcion": "Perro perdido de color tal tal tal tal tal",
@@ -151,29 +150,12 @@ class PublicacionController {
       });
   }
 
-  // static findAll(req,res){
-  //     Publicacion.find()
-  //     .select('-__v')
-  //     .populate({
-  //         path: 'usuarioregistro',
-  //         select: '-__v -password',
-  //         populate: {path: 'usuario', select: '-__v'}
-  //     })
-  //     .populate({
-  //         path: 'datoanimal',
-  //         select: '-__v',
-  //     })
-  //     .then(data => {
-  //         res.send(data)
-  //     }).catch(err => {
-  //         res.status(404).send({
-  //             message: err.message
-  //         })
-  //     })
-  // }
+
 
   // localhost:7100/publicaciones?limit=2&page=2
   static findAll(req, res) {
+    let page = req.query.page || 1
+    let limit = req.query.limit || 10
     Publicacion.paginate(
       {},
       {
@@ -189,8 +171,9 @@ class PublicacionController {
             select: "-__v",
           },
         ],
-        page: req.query.page,
-        limit: req.query.limit,
+        sort: {createdAt: -1},
+        page: page,
+        limit: limit,
       }
     )
       .then((data) => {
@@ -205,6 +188,8 @@ class PublicacionController {
 
   // localhost:7100/publicaciones?limit=2&page=2
   static findByType(req, res) {
+    let page = req.query.page || 1
+    let limit = req.query.limit || 10
     let tipo = req.params.idtype;
     Publicacion.paginate(
       { tipopub: tipo },
@@ -221,8 +206,9 @@ class PublicacionController {
             select: "-__v",
           },
         ],
-        page: req.query.page,
-        limit: req.query.limit,
+        sort: {createdAt: -1},
+        page: page,
+        limit: limit,
       }
     )
       .then((data) => {
@@ -269,6 +255,7 @@ class PublicacionController {
         path: "datoanimal",
         select: "-__v",
       })
+      .sort({createdAt: -1})
       .then((data) => {
         res.send(data);
       })
@@ -280,30 +267,35 @@ class PublicacionController {
   }
 
   static updatePublicacion(req, res) {
+    let usuario_pk = res.locals.payload.id
     let pk = req.params.id;
     let data = req.body;
 
     Publicacion.findById(pk)
       .then((publicacion) => {
-        let pka = publicacion.datoanimal;
-        Animal.findByIdAndUpdate(pka, data.animal)
-          .then((datos) => {
-            data.animal = pka;
-            Publicacion.findByIdAndUpdate(pk, data)
-              .then((dato) => {
-                res.send(dato);
-              })
-              .catch((err) => {
-                res.status(500).send({
-                  message: err.message,
+        if (publicacion.usuarioregistro == usuario_pk){
+          let pka = publicacion.datoanimal;
+          Animal.findByIdAndUpdate(pka, data.animal)
+            .then((datos) => {
+              data.animal = pka;
+              Publicacion.findByIdAndUpdate(pk, data)
+                .then((dato) => {
+                  res.send("Datos actualizados");
+                })
+                .catch((err) => {
+                  res.status(500).send({
+                    message: err.message,
+                  });
                 });
+            })
+            .catch((err) => {
+              res.status(500).send({
+                message: err.message,
               });
-          })
-          .catch((err) => {
-            res.status(500).send({
-              message: err.message,
             });
-          });
+        }else{
+          res.send("No puede editar esta publicación")
+        }
       })
       .catch((err) => {
         res.status(500).send({
