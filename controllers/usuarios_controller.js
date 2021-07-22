@@ -110,16 +110,24 @@ class UsuarioController {
 
   static update(req, res) {
     let pk = req.params.id;
-    let data = req.body;
-    Usuario.findByIdAndUpdate(pk, data)
-      .then((dato) => {
-        res.send(dato);
+    let dato = req.body;
+
+    Registro.findById(pk).then(data => {
+      let id_user = data.usuario
+      Usuario.findByIdAndUpdate(id_user, dato)
+      .then((datos) => {
+        res.send("Usuario actualizado correctamente");
       })
       .catch((err) => {
         res.status(500).send({
           message: err.message,
         });
       });
+    }).catch((err) => {
+      res.status(500).send({
+        message: err.message,
+      });
+    });
   }
 
   static findAll(req, res) {

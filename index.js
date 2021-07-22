@@ -65,10 +65,13 @@ app.post('/uploadimages', upload.array('fotos', 3),ImagenController.uploadMultip
 app.post('/registro', UsuarioController.registro)
 app.get('/registros', RegistroController.findAll)
 app.get('/registro/:id', RegistroController.findById)
+// Update Registro del usuario
+app.put('/registro/:id', UsuarioController.update)
 
+
+// No funcionando
 app.get('/usuarios', UsuarioController.findAll)
 app.get('/usuario/:id', UsuarioController.findById)
-app.put('/usuario/:id', UsuarioController.update)
 app.delete('/usuario/:id', UsuarioController.safeDelete)
 
 // login
