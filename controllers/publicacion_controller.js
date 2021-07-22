@@ -294,7 +294,9 @@ class PublicacionController {
               });
             });
         }else{
-          res.send("No puede editar esta publicación")
+          res.status(401).send({
+            message: "No puede editar esta publicación"
+          })
         }
       })
       .catch((err) => {
