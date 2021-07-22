@@ -80,6 +80,51 @@ class RegistroController {
       });
   }
 
+
+  // localhost:7100/addguardado/iddelapublicacion
+  static addGuardados(req, res){
+    let registro_pk = res.locals.payload.id
+    let idpub = req.params.id
+
+    Registro.findById(registro_pk).then((data) =>{
+      data.guardados.push(idpub)
+      data.save().then(() =>{
+        res.send("Usuario actualizado");
+      })
+    })
+  }
+
+  // localhost:7100/getguardados
+  static showGuardados(req, res){
+    let registro_pk = res.locals.payload.id
+
+    Registro.findById(registro_pk, {guardados:1, _id:0})
+    .populate({
+      path: "guardados",
+      select: "-__v",
+      populate: [
+        {
+          path: "usuarioregistro",
+          select: "-__v -password -guardados",
+          populate: {
+            path: "usuario",
+            select: "-__v"
+          }
+        },{
+          path: "datoanimal",
+          select: "-__v"
+        }
+      ]
+    })
+    .then((data) => {
+      res.send(data);
+    }).catch((err) => {
+        res.status(500).send({
+          message: err.message,
+        });
+      });
+  }
+
 }
 
 module.exports = { RegistroController };

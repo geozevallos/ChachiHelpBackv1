@@ -69,6 +69,14 @@ app.get('/registro/:id', RegistroController.findById)
 app.put('/registro/:id', UsuarioController.update)
 
 
+// Add publicacion al registro de guardados
+app.put('/addguardado/:id', authmiddleware, RegistroController.addGuardados)
+
+// Obtener mis publicaciones guardadas
+app.get('/getguardados', authmiddleware, RegistroController.showGuardados)
+
+
+
 // No funcionando
 app.get('/usuarios', UsuarioController.findAll)
 app.get('/usuario/:id', UsuarioController.findById)
@@ -95,6 +103,10 @@ app.get('/publicacionbyuser/:iduser', PublicacionController.findbyUser)
 app.get('/publicacionbytype/:idtype', PublicacionController.findByType)
 
 app.put('/publicacion/:id', authmiddleware, PublicacionController.updatePublicacion)
+
+
+
+
 
 
 //Query Animal

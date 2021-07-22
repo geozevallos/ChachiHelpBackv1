@@ -14,7 +14,13 @@ var RegistroSchema = mongoose.Schema({
     usuario: {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'usuario'
-    }
+    },
+    guardados: [
+        {
+            type: mongoose.Schema.Types.ObjectId,
+            ref: 'publicacion'
+        }
+    ]
 })
 
 RegistroSchema.path('correo').validate(function (correo) {
