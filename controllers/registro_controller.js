@@ -86,12 +86,14 @@ class RegistroController {
     let registro_pk = res.locals.payload.id
     let idpub = req.params.id
 
-    Registro.findById(registro_pk).then((data) =>{
-      data.guardados.push(idpub)
-      data.save().then(() =>{
-        res.send("Usuario actualizado");
-      })
-    })
+    Registro.findByIdAndUpdate(registro_pk, {$push:{ guardados: idpub}})
+    .then((data)=> {
+      res.send("Usuario actualizado");
+    }).catch((err) => {
+      res.status(500).send({
+        message: err.message,
+      });
+    });
   }
 
   // localhost:7100/getguardados
