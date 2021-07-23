@@ -17,6 +17,7 @@ const authmiddleware = require('./middlewares/jwt_atenticacion');
 const { ImagenController } = require('./controllers/imagen_controller');
 const validateToken = require('./middlewares/validate');
 const { AnimalController } = require('./controllers/animalController');
+const { RazaController } = require('./controllers/razaController');
 
 dotenv.config();
 
@@ -75,6 +76,9 @@ app.put('/addguardado/:id', authmiddleware, RegistroController.addGuardados)
 // Obtener mis publicaciones guardadas
 app.get('/getguardados', authmiddleware, RegistroController.showGuardados)
 
+
+//Obtener razas por especies
+app.get('/razas/:idesp', RazaController.getRazas)
 
 
 // No funcionando

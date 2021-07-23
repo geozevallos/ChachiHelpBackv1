@@ -9,20 +9,21 @@ client = MongoClient()
 db = client.SpatialData
 
 #Nombre del coleccion en la BD
-dbg = db.provincias
+dbg = db.razas
 
 #Archivo geojson a ser cargado
-data = open("D:\Practica_Libros\Mongo_GEO\Chachi\data\provincias.geojson")
+data = open("D:\Practica_Libros\Mongo_GEO\Chachi\data\especies.json")
 
 
 jsondata = json.load(data)
-
 
 # print (jsondata)
 # print (jsondata["features"])
 
 # Insertar los datos en la coleccion
-dbg.insert_many(jsondata["features"])
+# dbg.insert_many(jsondata["features"])  # Si es GEOJSON
+
+dbg.insert_many(jsondata)
 
 
 
