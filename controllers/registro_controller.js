@@ -86,15 +86,38 @@ class RegistroController {
     let registro_pk = res.locals.payload.id
     let idpub = req.params.id
 
-    Registro.findByIdAndUpdate(registro_pk, {$push:{ guardados: idpub}})
-    .then((data)=> {
-      res.send("Usuario actualizado");
-    }).catch((err) => {
-      res.status(500).send({
-        message: err.message,
-      });
-    });
+    Registro.findById(registro_pk).then(datos => {
+      if(datos.guardados.length > 0){
+        const repetidos = datos.guardados.filter(dato => dato == idpub)
+        if (repetidos.length > 0){
+          res.status(400).send({
+            message: "Ya has agregado esta publicación"
+          })
+        } else {
+          Registro.findByIdAndUpdate(registro_pk, {$push:{ guardados: idpub}})
+          .then(()=> {
+            res.send("Usuario actualizado");
+          }).catch((err) => {
+            res.status(500).send({
+              message: err.message,
+            });
+          });
+        }
+      } else{
+        Registro.findByIdAndUpdate(registro_pk, {$push:{ guardados: idpub}})
+        .then(()=> {
+          res.send("Usuario actualizado");
+        }).catch((err) => {
+          res.status(500).send({
+            message: err.message,
+          });
+        });
+      }
+    })
   }
+
+
+
 
   // localhost:7100/getguardados
   static showGuardados(req, res){
