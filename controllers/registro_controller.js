@@ -150,6 +150,21 @@ class RegistroController {
       });
   }
 
+  static removeGuardado(req,res){
+    let registro_pk = res.locals.payload.id
+    let idpub = req.params.id
+
+    Registro.findByIdAndUpdate(registro_pk, {$pull:{ guardados: idpub}})
+          .then(()=> {
+            res.send("Publicación eliminada de guardados");
+          }).catch((err) => {
+            res.status(500).send({
+              message: err.message,
+            });
+          });
+
+  }
+
 }
 
 module.exports = { RegistroController };

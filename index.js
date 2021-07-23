@@ -76,6 +76,9 @@ app.put('/addguardado/:id', authmiddleware, RegistroController.addGuardados)
 // Obtener mis publicaciones guardadas
 app.get('/getguardados', authmiddleware, RegistroController.showGuardados)
 
+//Eliminarpublicacion guardada
+app.put('/deleteguardado/:id', authmiddleware, RegistroController.removeGuardado)
+
 
 //Obtener razas por especies
 app.get('/razas/:idesp', RazaController.getRazas)
