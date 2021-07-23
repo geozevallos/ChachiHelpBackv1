@@ -67,7 +67,7 @@ app.post('/registro', UsuarioController.registro)
 app.get('/registros', RegistroController.findAll)
 app.get('/registro/:id', RegistroController.findById)
 // Update Registro del usuario
-app.put('/registro/:id', UsuarioController.update)
+app.put('/registro/:id', authmiddleware, UsuarioController.update)
 
 
 // Add publicacion al registro de guardados
