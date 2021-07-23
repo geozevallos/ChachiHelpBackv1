@@ -126,7 +126,7 @@ class PublicacionController {
     let maxdist = +req.query.maxdist;
     let coords = [long, lat];
 
-    Publicacion.find()
+    Publicacion.find({eliminado: null})
       .near("localizacion", {
         center: { type: "Point", coordinates: coords },
         maxDistance: maxdist,
@@ -150,14 +150,12 @@ class PublicacionController {
       });
   }
 
-
-
   // localhost:7100/publicaciones?limit=2&page=2
   static findAll(req, res) {
-    let page = req.query.page || 1
-    let limit = req.query.limit || 10
+    let page = req.query.page || 1;
+    let limit = req.query.limit || 10;
     Publicacion.paginate(
-      {},
+      {eliminado: null},
       {
         select: "-__v",
         populate: [
@@ -171,7 +169,7 @@ class PublicacionController {
             select: "-__v",
           },
         ],
-        sort: {createdAt: -1},
+        sort: { createdAt: -1 },
         page: page,
         limit: limit,
       }
@@ -188,11 +186,11 @@ class PublicacionController {
 
   // localhost:7100/publicaciones?limit=2&page=2
   static findByType(req, res) {
-    let page = req.query.page || 1
-    let limit = req.query.limit || 10
+    let page = req.query.page || 1;
+    let limit = req.query.limit || 10;
     let tipo = req.params.idtype;
     Publicacion.paginate(
-      { tipopub: tipo },
+      { tipopub: tipo, eliminado: null},
       {
         select: "-__v",
         populate: [
@@ -206,7 +204,7 @@ class PublicacionController {
             select: "-__v",
           },
         ],
-        sort: {createdAt: -1},
+        sort: { createdAt: -1 },
         page: page,
         limit: limit,
       }
@@ -245,7 +243,7 @@ class PublicacionController {
 
   static findbyUser(req, res) {
     let iduser = req.params.iduser;
-    Publicacion.find({ usuarioregistro: iduser }, { __v: 0 })
+    Publicacion.find({ usuarioregistro: iduser, eliminado: null }, { __v: 0 })
       .populate({
         path: "usuarioregistro",
         select: "-__v -password",
@@ -255,7 +253,7 @@ class PublicacionController {
         path: "datoanimal",
         select: "-__v",
       })
-      .sort({createdAt: -1})
+      .sort({ createdAt: -1 })
       .then((data) => {
         res.send(data);
       })
@@ -267,13 +265,13 @@ class PublicacionController {
   }
 
   static updatePublicacion(req, res) {
-    let usuario_pk = res.locals.payload.id
+    let usuario_pk = res.locals.payload.id;
     let pk = req.params.id;
     let data = req.body;
 
     Publicacion.findById(pk)
       .then((publicacion) => {
-        if (publicacion.usuarioregistro == usuario_pk){
+        if (publicacion.usuarioregistro == usuario_pk) {
           let pka = publicacion.datoanimal;
           Animal.findByIdAndUpdate(pka, data.animal)
             .then((datos) => {
@@ -293,10 +291,10 @@ class PublicacionController {
                 message: err.message,
               });
             });
-        }else{
+        } else {
           res.status(401).send({
-            message: "No puede editar esta publicación"
-          })
+            message: "No puede editar esta publicación",
+          });
         }
       })
       .catch((err) => {
@@ -305,6 +303,50 @@ class PublicacionController {
         });
       });
   }
+
+
+
+  static safeDelete(req, res) {
+    let usuario_pk = res.locals.payload.id;
+    let pk = req.params.id;
+
+    let data = {
+      eliminado: true,
+      fecha_eliminado: new Date(),
+    };
+
+    Publicacion.findById(pk).then(publicacion => {
+      if(publicacion.usuarioregistro == usuario_pk){
+        Publicacion.findByIdAndUpdate(pk, data).then(datos => {
+          let pka = datos.datoanimal;
+          Animal.findByIdAndUpdate(pka,data).then(() => {
+            res.send("Publicación eliminada")
+          }).catch((err) => {
+            res.status(500).send({
+              message: err.message,
+            });
+          });
+        }).catch((err) => {
+          res.status(500).send({
+            message: err.message,
+          });
+        });
+      } else {
+        res.status(400).send({
+          message: "No puede eliminar esta publicación"
+        })
+      }
+
+    }).catch((err) => {
+      res.status(500).send({
+        message: err.message,
+      });
+    });
+
+    
+  }
+  
+
 }
 
 module.exports = { PublicacionController };

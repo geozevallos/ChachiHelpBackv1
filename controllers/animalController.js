@@ -69,7 +69,7 @@ class AnimalController {
           let rpta = [];
           let ndatos = 0
           id_animal.forEach((id) => {
-            Publicacion.find({ datoanimal: id, tipopub:pubtype }, { __v: 0 })
+            Publicacion.find({ datoanimal: id, tipopub:pubtype, eliminado: null}, { __v: 0 })
               .populate({
                 path: "usuarioregistro",
                 select: "-__v -password",
@@ -81,7 +81,7 @@ class AnimalController {
               })
               .then((data) => {
                   if (data.length == 0){
-                      console.log("Sin Dato");
+                      res.send("Sin Dato");
                   } else {
                       rpta.push(data[0]);
                   }

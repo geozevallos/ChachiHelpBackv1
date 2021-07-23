@@ -127,6 +127,7 @@ class RegistroController {
     .populate({
       path: "guardados",
       select: "-__v",
+      match: {eliminado: null},
       populate: [
         {
           path: "usuarioregistro",

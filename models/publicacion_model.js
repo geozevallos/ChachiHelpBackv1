@@ -1,59 +1,67 @@
-const mongoose = require('mongoose')
-const mongoosePaginate = require('mongoose-paginate-v2');
+const mongoose = require("mongoose");
+const mongoosePaginate = require("mongoose-paginate-v2");
 
-var PublicacionSchema = mongoose.Schema({
+var PublicacionSchema = mongoose.Schema(
+  {
     tipopub: {
-        type: String,
-        required: true
+      type: String,
+      required: true,
     },
     imagen: {
-        type: String
+      type: String,
     },
-    descripcion:{
-        type: String
+    descripcion: {
+      type: String,
     },
-    ubicacion_ref:{
-        type: String
+    ubicacion_ref: {
+      type: String,
     },
     localizacion: {
-        type: {
-          type: String, // Don't do `{ location: { type: String } }`
-          enum: ['Point'], // 'location.type' must be 'Point'
-          required: true
-        },
-        coordinates: {
-          type: [Number],
-          required: true
-        }
+      type: {
+        type: String, // Don't do `{ location: { type: String } }`
+        enum: ["Point"], // 'location.type' must be 'Point'
+        required: true,
+      },
+      coordinates: {
+        type: [Number],
+        required: true,
+      },
     },
     departamento: {
-        type: String
+      type: String,
     },
     provincia: {
-        type: String
+      type: String,
     },
     distrito: {
-        type: String
+      type: String,
     },
     usuarioregistro: {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: 'registro'
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "registro",
     },
     datoanimal: {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: 'animal'
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "animal",
     },
-    
-}, {
-    timestamps: true
-  })
+    eliminado: {
+      type: Boolean,
+    },
+    fecha_elim: {
+      type: Date,
+    }
+  },
+  {
+    timestamps: true,
+  }
+);
 
 PublicacionSchema.plugin(mongoosePaginate);
 
-PublicacionSchema.index({localizacion: '2dsphere'});
+PublicacionSchema.index({ localizacion: "2dsphere" });
 
-const Publicacion = mongoose.model('publicacion', PublicacionSchema)
+const Publicacion = mongoose.model("publicacion", PublicacionSchema);
 
 module.exports = {
-    Publicacion
-}
+  Publicacion,
+};

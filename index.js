@@ -111,9 +111,7 @@ app.get('/publicacionbytype/:idtype', PublicacionController.findByType)
 
 app.put('/publicacion/:id', authmiddleware, PublicacionController.updatePublicacion)
 
-
-
-
+app.delete('/publicacion/:id', authmiddleware, PublicacionController.safeDelete)
 
 
 //Query Animal
