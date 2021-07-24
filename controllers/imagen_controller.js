@@ -1,3 +1,4 @@
+const { Avatars } = require("../db");
 
 class ImagenController{
     
@@ -19,6 +20,16 @@ class ImagenController{
             ruta_imagenes.push(imagen);
         });
         res.send(ruta_imagenes)
+    }
+
+    static getImages(req, res){
+        Avatars.find({}).then(data => {
+            res.send(data);
+        }).catch((err) => {
+            res.status(500).send({
+              message: err.message,
+            });
+          });
     }
 
 }

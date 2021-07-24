@@ -18,6 +18,7 @@ const { ImagenController } = require('./controllers/imagen_controller');
 const validateToken = require('./middlewares/validate');
 const { AnimalController } = require('./controllers/animalController');
 const { RazaController } = require('./controllers/razaController');
+const { get } = require('http');
 
 dotenv.config();
 
@@ -59,7 +60,7 @@ app.get('/distritos/:idprov', DistritoController.findByIdProv)
 app.post('/uploadimage', upload.single('avatar'),ImagenController.uploadImage)
 app.post('/uploadimages', upload.array('fotos', 3),ImagenController.uploadMultipleImages)
 
-
+app.get('/getimages', ImagenController.getImages)
 
 
 // usuarios
@@ -77,7 +78,7 @@ app.put('/addguardado/:id', authmiddleware, RegistroController.addGuardados)
 app.get('/getguardados', authmiddleware, RegistroController.showGuardados)
 
 //Eliminarpublicacion guardada
-app.put('/deleteguardado/:id', authmiddleware, RegistroController.removeGuardado)
+app.delete('/deleteguardado/:id', authmiddleware, RegistroController.removeGuardado)
 
 
 //Obtener razas por especies
@@ -118,7 +119,6 @@ app.delete('/publicacion/:id', authmiddleware, PublicacionController.safeDelete)
 app.get('/animal/query', AnimalController.findAnimal)
 
 
-// app.post('/nuevapub', authmiddleware, PublicacionController.Nuevapub)
 
 app.listen(7100, () => {
     console.log('server running at localhost:7100');

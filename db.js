@@ -18,10 +18,14 @@ const Veterinaria = mongoose.model('veterinarias', {})
 // Coleccion de Especies
 const Razas = mongoose.model('razas', {})
 
+// Coleccion de avatares
+const Avatars = mongoose.model('avatars', {})
+
 module.exports = {
     Distrito,
     Provincia,
     Departamento,
     Veterinaria,
-    Razas
+    Razas,
+    Avatars
 }
