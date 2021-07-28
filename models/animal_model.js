@@ -22,8 +22,7 @@ var AnimalSchema = mongoose.Schema({
     required: true,
   },
   raza: {
-    type: String,
-    required: true,
+    type: String
   },
   sexo: {
     type: String,

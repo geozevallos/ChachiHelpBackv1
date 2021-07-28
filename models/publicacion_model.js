@@ -7,9 +7,7 @@ var PublicacionSchema = mongoose.Schema(
       type: String,
       required: true,
     },
-    imagen: {
-      type: String,
-    },
+    imagen: [],
     descripcion: {
       type: String,
     },

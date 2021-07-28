@@ -269,9 +269,17 @@ class PublicacionController {
     let pk = req.params.id;
     let data = req.body;
 
-    Publicacion.findById(pk)
-      .then((publicacion) => {
-        if (publicacion.usuarioregistro == usuario_pk) {
+    Publicacion.findById(pk).then((publicacion) => {
+      if(publicacion.usuarioregistro == usuario_pk){
+        if (data.animal == undefined || data.animal == null || data.animal == ""){
+          Publicacion.findByIdAndUpdate(pk, data).then(() => {
+            res.send("Datos actualizados")
+          }).catch((err) => {
+            res.status(500).send({
+              message: err.message,
+            });
+          });;
+        } else {
           let pka = publicacion.datoanimal;
           Animal.findByIdAndUpdate(pka, data.animal)
             .then((datos) => {
@@ -291,17 +299,18 @@ class PublicacionController {
                 message: err.message,
               });
             });
-        } else {
-          res.status(401).send({
-            message: "No puede editar esta publicación",
-          });
         }
-      })
-      .catch((err) => {
-        res.status(500).send({
-          message: err.message,
+      } else {
+        res.status(401).send({
+          message: "No puede editar esta publicación",
         });
+      }
+    }).catch((err) => {
+      res.status(500).send({
+        message: err.message,
       });
+    });
+
   }
 
 
