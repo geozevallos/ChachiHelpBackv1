@@ -1,0 +1,1150 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2021-07-31T21:29:47Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/519449053",
+        "addr:street": "Juan Pablo II",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Clinica Veterinaria",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.0388941,
+              -8.1180018
+            ],
+            [
+              -79.0389305,
+              -8.118046
+            ],
+            [
+              -79.0388364,
+              -8.1181219
+            ],
+            [
+              -79.0388,
+              -8.1180777
+            ],
+            [
+              -79.0388941,
+              -8.1180018
+            ]
+          ]
+        ]
+      },
+      "id": "way/519449053"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/519755854",
+        "addr:street": "Avenida Manuel Vera Enriquez",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "El Duke de Can",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.0333798,
+              -8.1026368
+            ],
+            [
+              -79.0333013,
+              -8.1026745
+            ],
+            [
+              -79.0332358,
+              -8.102541
+            ],
+            [
+              -79.0333206,
+              -8.1025059
+            ],
+            [
+              -79.033374,
+              -8.1026244
+            ],
+            [
+              -79.0333798,
+              -8.1026368
+            ]
+          ]
+        ]
+      },
+      "id": "way/519755854"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/520115911",
+        "addr:street": "Jirón Balboa",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Carden-Can",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.0184566,
+              -8.1147799
+            ],
+            [
+              -79.0184884,
+              -8.11483
+            ],
+            [
+              -79.0184144,
+              -8.1148759
+            ],
+            [
+              -79.0183827,
+              -8.1148257
+            ],
+            [
+              -79.0184566,
+              -8.1147799
+            ]
+          ]
+        ]
+      },
+      "id": "way/520115911"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/521326332",
+        "addr:street": "Avenida José Gabriel Condorcanqui",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Centro Veterinario La Esperanza",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.0446767,
+              -8.0821513
+            ],
+            [
+              -79.0446016,
+              -8.0821176
+            ],
+            [
+              -79.0446433,
+              -8.0820273
+            ],
+            [
+              -79.0447177,
+              -8.08206
+            ],
+            [
+              -79.0446767,
+              -8.0821513
+            ]
+          ]
+        ]
+      },
+      "id": "way/521326332"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/521621326",
+        "addr:street": "Avenida Huamán",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Dog Tor",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.0412814,
+              -8.1362964
+            ],
+            [
+              -79.0413419,
+              -8.1364482
+            ],
+            [
+              -79.0412768,
+              -8.1364736
+            ],
+            [
+              -79.0412163,
+              -8.1363218
+            ],
+            [
+              -79.0412814,
+              -8.1362964
+            ]
+          ]
+        ]
+      },
+      "id": "way/521621326"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2604146229",
+        "addr:street": "Andrés Belaunde",
+        "amenity": "veterinary",
+        "name": "Veterinaria P4tas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0068308,
+          -8.1121418
+        ]
+      },
+      "id": "node/2604146229"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5051774266",
+        "addr:street": "Avenida Manuel Vera Enriquez",
+        "amenity": "veterinary",
+        "name": "Veterinaría Animal Pets",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0318718,
+          -8.1038578
+        ]
+      },
+      "id": "node/5051774266"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5065171731",
+        "addr:street": "Avenida America Sur",
+        "amenity": "veterinary",
+        "name": "Java Vet",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0400608,
+          -8.1198012
+        ]
+      },
+      "id": "node/5065171731"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5069550737",
+        "addr:street": "Avenida America Sur",
+        "amenity": "veterinary",
+        "name": "Veterinaría El Ovalo",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0202835,
+          -8.1206035
+        ]
+      },
+      "id": "node/5069550737"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5070261058",
+        "addr:street": "Calle Negrón Ugarte",
+        "amenity": "veterinary",
+        "name": "Clinica Veterinaria",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0255089,
+          -8.0972912
+        ]
+      },
+      "id": "node/5070261058"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5070424898",
+        "addr:street": "Avenida América Norte",
+        "amenity": "veterinary",
+        "name": "Veterinaria Pocavet",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0304222,
+          -8.0980924
+        ]
+      },
+      "id": "node/5070424898"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5070424906",
+        "addr:street": "Avenida América Norte",
+        "amenity": "veterinary",
+        "name": "Clinica Veterinaria",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0306435,
+          -8.0983392
+        ]
+      },
+      "id": "node/5070424906"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5072248894",
+        "addr:street": "Avenida Húsares de Junín",
+        "amenity": "veterinary",
+        "name": "Veterinaría Medical Pets",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0347134,
+          -8.1228971
+        ]
+      },
+      "id": "node/5072248894"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5072442478",
+        "addr:street": "Avenida Fátima",
+        "amenity": "veterinary",
+        "name": "Grandez",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0348096,
+          -8.1305028
+        ]
+      },
+      "id": "node/5072442478"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5073596424",
+        "addr:street": "Avenida Salvador Lara",
+        "amenity": "veterinary",
+        "name": "Deniel",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0222796,
+          -8.0954077
+        ]
+      },
+      "id": "node/5073596424"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5073596434",
+        "addr:street": "Avenida Salvador Lara",
+        "amenity": "veterinary",
+        "name": "Miller",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0227267,
+          -8.0965484
+        ]
+      },
+      "id": "node/5073596434"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5073653832",
+        "addr:street": "Avenida Salvador Lara",
+        "amenity": "veterinary",
+        "name": "Medivet",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0272172,
+          -8.1013782
+        ]
+      },
+      "id": "node/5073653832"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5073653847",
+        "addr:street": "Avenida Salvador Lara",
+        "amenity": "veterinary",
+        "name": "Veterinaria San Juan",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0276648,
+          -8.1018718
+        ]
+      },
+      "id": "node/5073653847"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5073707285",
+        "addr:street": "Avenida Victor Larco Herrera",
+        "amenity": "veterinary",
+        "name": "Huellitas",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0500234,
+          -8.1371784
+        ]
+      },
+      "id": "node/5073707285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5073848985",
+        "addr:street": "Juan de la Cierva",
+        "amenity": "veterinary",
+        "name": "San Matriín",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0173954,
+          -8.0964015
+        ]
+      },
+      "id": "node/5073848985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5073917881",
+        "addr:street": "Avenida Victor Larco Herrera",
+        "amenity": "veterinary",
+        "name": "Oh My Can!",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0535912,
+          -8.1420507
+        ]
+      },
+      "id": "node/5073917881"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5080012630",
+        "addr:street": "Avenida José María Eguren",
+        "amenity": "veterinary",
+        "name": "Top Veterinaria del Sur",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0213208,
+          -8.1089235
+        ]
+      },
+      "id": "node/5080012630"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5081843471",
+        "addr:street": "Avenida José María Eguren",
+        "amenity": "veterinary",
+        "name": "Veterinaria Top San Martin",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0205141,
+          -8.1095587
+        ]
+      },
+      "id": "node/5081843471"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5081843472",
+        "addr:street": "Avenida José María Eguren",
+        "amenity": "veterinary",
+        "name": "Agroveterinaria Angelita",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0205538,
+          -8.1095218
+        ]
+      },
+      "id": "node/5081843472"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5081843492",
+        "addr:street": "Avenida José María Eguren",
+        "amenity": "veterinary",
+        "name": "Veterinaria Santa Fe",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0210473,
+          -8.1090543
+        ]
+      },
+      "id": "node/5081843492"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5081958460",
+        "addr:street": "Calle Guadalupe de Victoria",
+        "amenity": "veterinary",
+        "name": "Veterinaria Amigo Fiel",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0462881,
+          -8.0807943
+        ]
+      },
+      "id": "node/5081958460"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5082304337",
+        "addr:street": "Los Algarrobos",
+        "amenity": "veterinary",
+        "name": "Clinican",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0395336,
+          -8.1323152
+        ]
+      },
+      "id": "node/5082304337"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5082304360",
+        "addr:street": "Las Magnolias",
+        "amenity": "veterinary",
+        "name": "El Duke de Can",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0376491,
+          -8.1295789
+        ]
+      },
+      "id": "node/5082304360"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5082434136",
+        "addr:street": "Avenida Los Incas",
+        "amenity": "veterinary",
+        "name": "Veterinaria Mi Mascota",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0247489,
+          -8.1181362
+        ]
+      },
+      "id": "node/5082434136"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5083895232",
+        "addr:street": "Avenida César Vallejo",
+        "amenity": "veterinary",
+        "name": "Anima Scotas",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0176954,
+          -8.1102045
+        ]
+      },
+      "id": "node/5083895232"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5083895239",
+        "addr:street": "Avenida César Vallejo",
+        "amenity": "veterinary",
+        "name": "Emergencias Veterinarias",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0177503,
+          -8.1102587
+        ]
+      },
+      "id": "node/5083895239"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5083895242",
+        "addr:street": "Avenida César Vallejo",
+        "amenity": "veterinary",
+        "name": "Inversiones Agro Veterinarias Trujillo",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0178179,
+          -8.110326
+        ]
+      },
+      "id": "node/5083895242"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5083915317",
+        "addr:street": "Calle Feijo de Sousa",
+        "amenity": "veterinary",
+        "name": "Animascotas",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0182339,
+          -8.1107905
+        ]
+      },
+      "id": "node/5083915317"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5083915318",
+        "addr:street": "Calle Feijo de Sousa",
+        "amenity": "veterinary",
+        "name": "Zoo Mundo",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0182574,
+          -8.1108117
+        ]
+      },
+      "id": "node/5083915318"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5083915319",
+        "addr:street": "Avenida César Vallejo",
+        "amenity": "veterinary",
+        "name": "Veterinaria Dr",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0182758,
+          -8.110835
+        ]
+      },
+      "id": "node/5083915319"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5083917230",
+        "addr:street": "Avenida César Vallejo",
+        "amenity": "veterinary",
+        "name": "Emergencias Veterinarias",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0184426,
+          -8.1110012
+        ]
+      },
+      "id": "node/5083917230"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5084063840",
+        "addr:street": "Avenida Juan Pablo II",
+        "amenity": "veterinary",
+        "name": "Bichitos",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0452455,
+          -8.1254048
+        ]
+      },
+      "id": "node/5084063840"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5084174570",
+        "addr:street": "Avenida Juan Pablo II",
+        "amenity": "veterinary",
+        "name": "Medi Can Vet",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0499378,
+          -8.1302479
+        ]
+      },
+      "id": "node/5084174570"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5084437415",
+        "addr:city": "Trujillo",
+        "addr:street": "Portugal",
+        "amenity": "veterinary",
+        "name": "Veterinaria",
+        "source": "#Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0002318,
+          -8.0799069
+        ]
+      },
+      "id": "node/5084437415"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5084689700",
+        "addr:street": "Avenida America Sur",
+        "amenity": "veterinary",
+        "name": "Clínica Veterinaria",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0391601,
+          -8.1228238
+        ]
+      },
+      "id": "node/5084689700"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5084727977",
+        "addr:street": "B",
+        "amenity": "veterinary",
+        "name": "Canes",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0303559,
+          -8.1299052
+        ]
+      },
+      "id": "node/5084727977"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5084836768",
+        "addr:city": "Trujillo",
+        "addr:street": "Avenida Jose Faustino Sanchez Carrion",
+        "amenity": "veterinary",
+        "name": "Family Vet",
+        "source": "#Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.000094,
+          -8.0795081
+        ]
+      },
+      "id": "node/5084836768"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5086597078",
+        "addr:street": "Avenida Gonzales Prada",
+        "amenity": "veterinary",
+        "name": "Veterinaría Vargas Vet",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0176987,
+          -8.125234
+        ]
+      },
+      "id": "node/5086597078"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5086609099",
+        "addr:city": "Trujillo",
+        "addr:street": "Avenida Jose Faustino Sanchez Carrion",
+        "amenity": "veterinary",
+        "name": "El Buen Pastor",
+        "source": "#Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0004437,
+          -8.0812597
+        ]
+      },
+      "id": "node/5086609099"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5087110805",
+        "addr:street": "Calle Guzman Barron",
+        "amenity": "veterinary",
+        "name": "Pelos & Patas",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0111394,
+          -8.1070802
+        ]
+      },
+      "id": "node/5087110805"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5087303554",
+        "addr:city": "Trujillo",
+        "addr:street": "Avenida Jose Faustino Sanchez Carrion",
+        "amenity": "veterinary",
+        "name": "Sánchez Carrión",
+        "source": "#Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0017927,
+          -8.0853806
+        ]
+      },
+      "id": "node/5087303554"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5087407575",
+        "addr:city": "Trujillo",
+        "addr:street": "Avenida Pumacahua",
+        "amenity": "veterinary",
+        "name": "Nutri Health Vet",
+        "source": "#Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.9988856,
+          -8.087611
+        ]
+      },
+      "id": "node/5087407575"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5088905476",
+        "addr:street": "Avenida América Sur",
+        "amenity": "veterinary",
+        "name": "Veterinaria",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0106096,
+          -8.1051655
+        ]
+      },
+      "id": "node/5088905476"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5089263910",
+        "addr:street": "Calle Carlos M. de Alvear",
+        "amenity": "veterinary",
+        "name": "Veterinaría Guarniz",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.042486,
+          -8.0831148
+        ]
+      },
+      "id": "node/5089263910"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5089312809",
+        "addr:city": "Trujillo",
+        "addr:street": "Avenida Tupac Amaru",
+        "amenity": "veterinary",
+        "name": "Veterinaria",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0633587,
+          -8.0994764
+        ]
+      },
+      "id": "node/5089312809"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5089427614",
+        "addr:city": "Trujillo",
+        "addr:street": "Avenida Tupac Amaru",
+        "amenity": "veterinary",
+        "name": "Centro Veterinario Olano",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0625731,
+          -8.0966705
+        ]
+      },
+      "id": "node/5089427614"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5089550817",
+        "addr:street": "Avenida José Gabriel Condorcanqui",
+        "amenity": "veterinary",
+        "name": "Home Vet",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.049121,
+          -8.0733244
+        ]
+      },
+      "id": "node/5089550817"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5089604481",
+        "addr:street": "Avenida José Gabriel Condorcanqui",
+        "amenity": "veterinary",
+        "name": "Veterinaría Amigo Fiel",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0455809,
+          -8.0812216
+        ]
+      },
+      "id": "node/5089604481"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5090086108",
+        "addr:street": "Avenida Metropolitana II",
+        "amenity": "veterinary",
+        "name": "Clinica Veterinaria & Spa para Mascotas",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0486596,
+          -8.0988083
+        ]
+      },
+      "id": "node/5090086108"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5090131192",
+        "addr:street": "Avenida Metropolitana 1",
+        "amenity": "veterinary",
+        "name": "Ángeles Vet",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0436665,
+          -8.0913097
+        ]
+      },
+      "id": "node/5090131192"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5099191777",
+        "addr:city": "Trujillo",
+        "addr:street": "Jirón Bolivar",
+        "amenity": "veterinary",
+        "name": "Clínica Veterinaria",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0289317,
+          -8.1148136
+        ]
+      },
+      "id": "node/5099191777"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5099427202",
+        "addr:street": "Avenida España",
+        "amenity": "veterinary",
+        "name": "Happy Dog",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0315967,
+          -8.1155249
+        ]
+      },
+      "id": "node/5099427202"
+    }
+  ]
+}
